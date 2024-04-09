@@ -12,7 +12,6 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master: Pedro Rubens Serafim Bastos.
 - Product Owner: Victor Breno
 - Equipe de Desenvolvimento: Pedro Rubens Serafim Bastos, Victor Breno, Lucas Aguiar dos Santos, Lucas Henrique de Almeida Santos, Luiz Felipe da Silva Moreira, Elvis Xavier.
@@ -59,8 +58,10 @@ A equipe irá se reunir duas vezes por semana para fazer uma espécie de daily p
 </figure> 
   
 ### Ferramentas
+Trello
+Visual Studio Code
+Visual Studio
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
