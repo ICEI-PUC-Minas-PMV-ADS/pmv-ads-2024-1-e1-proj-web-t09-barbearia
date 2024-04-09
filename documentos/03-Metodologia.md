@@ -24,9 +24,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 ### Processo
-
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-
+A equipe irá se reunir duas vezes por semana para fazer uma espécie de daily para alinhar as tarefas que estão sendo feitas ou ja foram concluídas, e também para abrir oportunidades de expressar alguma dificuldade que esteja tendo. Vamos seguir as regras do Scrum, pegando tarefas do backlog e encaminhando para o To D0, quando os membros sentirem necessidade e depois será encaminhado para o Doing quando alguém decidir desenvolver. Quando concluída será encaminhada para Done para finalizar a tarefa. Iremos utilizar o Trello para fazer o controle das tarefas.
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/projetotrello.png"
 </figure>
