@@ -13,15 +13,9 @@ A empresa barbearia, tem dificuldade em marcar horários de forma organizada e p
 
 A missão do sistema é, criar uma aplicação web organizada específica para a barbearia, com os profissionais disponíveis na empresa, seriam os barbeiros, o serviço que eles oferecem, os preços, uma agenda para a marcação de horários e escolha desses serviços, tudo de forma prática e fácil para que os usuários que vão utilizar os sistemas consigam operar com facilidade e agilidade.
 
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-
 # Objetivos
 O objetivo do nosso sistema será permitir que os clientes agendem seus horários de corte de cabelo ou para fazer a barba (Podendo escolher entre os 2 ao marcar o horário) de forma fácil e conveniente através de um sistema web dedicado para o propósito. Isso proporcionará aos clientes a liberdade de escolherem horários disponíveis com a sua preferência de barbeiro de acordo com sua conveniência, reduzindo o tempo de espera e melhorando a experiência do cliente. Além disso vamos oferecer aos barbeiros uma visão de sua agenda com horários e datas marcadas permitindo-lhes gerenciar eficientemente seu tempo e evitar agendamentos coincidentes, garantindo uma distribuição clara para seu trabalho.
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
 # Justificativa
 Segundo o econodata existem mais de 59.410 barbearias ativas no Brasil, a competição no setor está mais acirrada do que nunca. Em um contexto em que a presença online se tornou crucial para o sucesso de qualquer empreendimento, as barbearias não são exceção. A implementação de uma página web dedicada especificamente ao estabelecimento oferece uma série de vantagens que não podem ser ignoradas.
 Crescimento do Mercado Online:
@@ -40,9 +34,6 @@ Uma página web profissional transmite uma imagem de profissionalismo e comprome
 #### Integração com Ferramentas de Marketing:
 Uma página web oferece uma plataforma ideal para integrar diversas estratégias de marketing digital, como SEO (Search Engine Optimization), marketing de conteúdo e mídia social. Isso permite que a barbearia alcance um público mais amplo, aumente sua visibilidade online e fortaleça o relacionamento com os clientes por meio de conteúdo relevante e interativo. 
 
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 # Público-Alvo
 
 O público-alvo para uma aplicação web destinada a barbearias seria diversificado e incluiria:
@@ -60,8 +51,4 @@ Esse grupo inclui homens de todas as idades que frequentam barbearias para servi
 Indivíduos interessados em tendências de beleza masculina, cuidados pessoais e estilo de vida saudável podem utilizar a aplicação web para descobrir novas barbearias, explorar serviços oferecidos e acessar conteúdo relacionado a dicas de cuidados com a barba e cabelo, estilos de corte, entre outros.
 
 Portanto, o público-alvo da aplicação web para barbearias abrange desde proprietários e profissionais do setor até os próprios clientes e outros stakeholders (partes interessadas) envolvidos na indústria de beleza masculina.
-
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 
