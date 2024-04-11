@@ -32,42 +32,51 @@ Aqui está a landing page incial.
 </figure>
 
 # tela 2
+Segunda sessão da landing page
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/landing-page2.PNG">
 </figure>
 
 # tela 3
+Tela de login de usuário, com campos para fazer login ou clicar em cadastrar.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/login.PNG">
 </figure>
 
 # tela 4
+Tela de cadastro para barbearias, com requerimento para preencher usuário, nome da barbearia, e-mail, senha e repetição de senha.
+
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-barbearia.PNG">
 </figure>
 
 # tela 5 
+Tela de cadastros para usuário com requerimento para preencher usuário, nome completo, e-mail, senha e repetição de senha.
 <figure>
   <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-usuario.PNG">
 </figure>
 
 # tela 6
+Seleção de uma barbearia cadastrada para realizar agendamento.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbearias.PNG">
 </figure>
 
 # tela 7 
+Selecão de um barbeiro na barbearia selecionada anteriormente, podendo selecionar data, hora e tipo de serviço do agendamento.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbeiros.PNG">
 </figure>
 
 # tela 8
+Confirmação do agendamento com detalhes do agendamento escolhido.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/confirmacao-agendamento.PNG">
 </figure>
 
 # tela 9
 <figure>
+  Tela pós confirmação com resumo para o cliente.
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/resumo-agendamento.PNG">
 </figure>
 
