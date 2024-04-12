@@ -1,25 +1,26 @@
 # Título do Projeto
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas - PUC Minas
 
-`DISCIPLINA`
+Desenvolvimento de aplicação web front-end
 
-`SEMESTRE`
+1º semestre / 2024
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo desse projeto é, criar uma aplicação web de fácil interação com o usuário para barbearias terem o controle de agendamentos feito por seus clientes utilizando essa aplicação, nela o cliente poderá escolher a barbearia que deseja realizar o serviço, escolher o profissional disponível, o serviço desejado e marcar o dia e horário disponível no sistema. Facilitando a rotina do barbeiro, pois através
+dessa aplicação ele vai poder consultar os horários que seus clientes marcaram para realizar determinado serviço com ele.
 
 ## Integrantes
 
-* Victor Breno
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Victor Breno Gonçalves Antunes 
+* Lucas Águiar Dos Santos
+* Pedro Rubens Serafim Bastos
+* Elvis Florentino Xavier Graciano
+* Luis Felipe Da Silva Moreira
+* Lucas Henrique de Almeida Santos
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigri Do Carmo
 
 # Documentação
 
