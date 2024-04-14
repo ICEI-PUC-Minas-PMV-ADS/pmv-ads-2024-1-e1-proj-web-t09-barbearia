@@ -67,7 +67,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/tree/main/codigo-fonte |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/tree/main/documentos |
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/LbQkV2AlSMZ6t1T1j3osCO/Barbearia-Desing?type=design&node-id=0-1&mode=design&t=gh0MqPGcikhHksNo-0 |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
