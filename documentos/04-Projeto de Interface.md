@@ -28,7 +28,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 # tela 1
 Aqui está a landing page incial.
 <figure>
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/landing-page1.PNG">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/landing-page.PNG">
 </figure>
 
 # tela 2
@@ -50,31 +50,38 @@ Tela de cadastro para barbearias, com requerimento para preencher usuário, nome
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-barbearia.PNG">
 </figure>
 
-# tela 5 
+# tela 5
+Tela de cadastro para barbeiros, com requerimento para preencher nome, e-mail, e senha.
+
+<figure>
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-barbeiro.PNG">
+</figure>
+
+# tela 6
 Tela de cadastros para usuário com requerimento para preencher usuário, nome completo, e-mail, senha e repetição de senha.
 <figure>
   <img src= "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-usuario.PNG">
 </figure>
 
-# tela 6
+# tela 7
 Seleção de uma barbearia cadastrada para realizar agendamento.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbearias.PNG">
 </figure>
 
-# tela 7 
+# tela 8 
 Selecão de um barbeiro na barbearia selecionada anteriormente, podendo selecionar data, hora e tipo de serviço do agendamento.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbeiros.PNG">
 </figure>
 
-# tela 8
+# tela 9
 Confirmação do agendamento com detalhes do agendamento escolhido.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/confirmacao-agendamento.PNG">
 </figure>
 
-# tela 9
+# tela 10
 <figure>
   Tela pós confirmação com resumo para o cliente.
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/resumo-agendamento.PNG">
