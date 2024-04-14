@@ -84,7 +84,7 @@ Confirmação do agendamento com detalhes do agendamento escolhido.
 # tela 10
 <figure>
   Tela pós confirmação com resumo para o cliente.
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/agendamento.PNG">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/resumo.PNG">
 </figure>
 
 # tela 11
