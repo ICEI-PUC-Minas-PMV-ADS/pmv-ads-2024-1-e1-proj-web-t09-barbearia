@@ -78,13 +78,19 @@ Selecão de um barbeiro na barbearia selecionada anteriormente, podendo selecion
 # tela 9
 Confirmação do agendamento com detalhes do agendamento escolhido.
 <figure>
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/confirmacao-agendamento.PNG">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/agendamento.PNG">
 </figure>
 
 # tela 10
 <figure>
   Tela pós confirmação com resumo para o cliente.
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/resumo-agendamento.PNG">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/agendamento.PNG">
+</figure>
+
+# tela 11
+<figure>
+  Tela de historico dos agendamentos para usuarios e barbeiarias.
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/historico.PNG">
 </figure>
 
 
