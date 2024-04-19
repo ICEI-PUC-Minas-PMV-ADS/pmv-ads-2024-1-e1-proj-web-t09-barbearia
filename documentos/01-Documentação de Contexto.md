@@ -20,3 +20,35 @@ O objetivo do nosso sistema será permitir que os clientes agendem seus horário
 Segundo o econodata existem mais de 59.410 barbearias ativas no Brasil, a competição no setor está mais acirrada do que nunca. Em um contexto em que a presença online se tornou crucial para o sucesso de qualquer empreendimento, as barbearias não são exceção. A implementação de uma página web dedicada especificamente ao estabelecimento oferece uma série de vantagens que não podem ser ignoradas.
 Crescimento do Mercado Online:
 Com o avanço da tecnologia e o aumento do uso da internet, os consumidores estão cada vez mais recorrendo à web para pesquisar e agendar serviços, incluindo cuidados pessoais. Uma página web para barbearias oferece uma vitrine virtual onde os potenciais clientes podem encontrar informações detalhadas sobre os serviços oferecidos, horários de funcionamento e localização do estabelecimento. 
+
+#### Acesso à Informação a Qualquer Momento:
+Uma página web proporciona aos clientes a conveniência de acessar informações sobre a barbearia a qualquer hora do dia, de qualquer dispositivo com acesso à internet. Isso significa que mesmo quando a barbearia está fechada, os clientes podem verificar os serviços disponíveis, os preços e agendar compromissos, aumentando as chances de conversão e fidelização. 
+
+#### Ampliação do Alcance de Mercado:
+Com uma presença online sólida, uma barbearia não está mais limitada ao alcance geográfico de sua localização física. Uma página web bem otimizada pode atrair clientes de áreas distantes, aumentando o potencial de crescimento do negócio e diversificando a base de clientes. 
+
+#### Fortalecimento da Marca e Credibilidade:
+Uma página web profissional transmite uma imagem de profissionalismo e comprometimento com a qualidade por parte da barbearia. Além disso, ao fornecer informações precisas e atualizadas, a página web contribui para construir a credibilidade da marca aos olhos dos consumidores, incentivando a confiança e a preferência pelo estabelecimento. 
+
+
+#### Integração com Ferramentas de Marketing:
+Uma página web oferece uma plataforma ideal para integrar diversas estratégias de marketing digital, como SEO (Search Engine Optimization), marketing de conteúdo e mídia social. Isso permite que a barbearia alcance um público mais amplo, aumente sua visibilidade online e fortaleça o relacionamento com os clientes por meio de conteúdo relevante e interativo. 
+
+# Público-Alvo
+
+O público-alvo para uma aplicação web destinada a barbearias seria diversificado e incluiria:
+
+#### Proprietários de Barbearias: 
+Este grupo é composto por empreendedores e gerentes de barbearias interessados em melhorar a eficiência operacional, aumentar a satisfação do cliente e impulsionar o crescimento do negócio por meio de uma presença online.
+
+#### Profissionais de Barbearia: 
+Os barbeiros e cabeleireiros que trabalham nas barbearias seriam usuários-chave da aplicação web, utilizando-a para gerenciar suas agendas, acompanhar compromissos, acessar informações sobre os clientes e manter-se atualizados sobre as atividades do estabelecimento.
+
+#### Clientes de Barbearias: 
+Esse grupo inclui homens de todas as idades que frequentam barbearias para serviços de corte de cabelo, barba, tratamentos capilares e outros serviços de beleza masculina. Os clientes desejam conveniência, facilidade de agendamento, acesso a informações sobre os serviços oferecidos e a capacidade de fornecer feedback sobre suas experiências.
+
+#### Entusiastas da Beleza Masculina: 
+Indivíduos interessados em tendências de beleza masculina, cuidados pessoais e estilo de vida saudável podem utilizar a aplicação web para descobrir novas barbearias, explorar serviços oferecidos e acessar conteúdo relacionado a dicas de cuidados com a barba e cabelo, estilos de corte, entre outros.
+
+Portanto, o público-alvo da aplicação web para barbearias abrange desde proprietários e profissionais do setor até os próprios clientes e outros stakeholders (partes interessadas) envolvidos na indústria de beleza masculina.
+
