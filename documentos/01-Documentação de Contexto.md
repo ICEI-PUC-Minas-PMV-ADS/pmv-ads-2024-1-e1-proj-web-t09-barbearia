@@ -1,6 +1,6 @@
 # Introdução
 
-Com o passar dos anos o crescimento do número de barbearias se torna cada vez mais expansivo. Evoluem em seus diferentes designs, estilos de cortes e no surgimento de cursos inovadores entre os profissionais da área, para que aprimorem ainda mais suas técnicas ou com o intuito de formar novos profissionais.
+Com o passar dos anos, o crescimento do número de barbearias se torna cada vez mais expansivo. Evoluem em seus diferentes designs, estilos de cortes e no surgimento de cursos inovadores entre os profissionais da área, para que aprimorem ainda mais suas técnicas ou com o intuito de formar novos profissionais.
  
 Muitas empresas acabam enfrentando dificuldades relacionadas à gestão de filas, falta de organização, funcionários sobrecarregados e clientes impacientes.
  
