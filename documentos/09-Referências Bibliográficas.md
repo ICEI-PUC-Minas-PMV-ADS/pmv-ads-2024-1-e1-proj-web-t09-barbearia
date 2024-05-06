@@ -1,7 +1,6 @@
 # Referências Bibliográficas
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
+Empresas de barbearia no Brasil. Econodata, 2024. Disponível em: https://www.econodata.com.br/empresas/todo-brasil/busca-barbearia . Acesso em: 12/03/2024. 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+
+Gisele S. Oliveira. Guia completo com tudo que precisa saber sobre SEO. JobContent, 2023. Disponível em: https://jobcontent.com.br/blog/seo/ . Acesso em: 12/03/2024. 
