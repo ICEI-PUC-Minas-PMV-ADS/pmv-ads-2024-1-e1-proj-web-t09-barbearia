@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-image: url('https://barbeariadoze.com.br/wp-content/uploads/2022/07/abz2-copiar-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80vh;
+    padding-top: 20px;
+}
+
+.box {
+    width: 1000px;
+    height: 170px;
+    background-color: rgba(240, 240, 240, 0.6);
+    border-radius: 20px;
+    margin-bottom: 45px;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 700px;
+}
+
+.box-text {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.box-text.bottom {
+    font-size: 23px;
+    bottom: 20px; 
+    left: 20px; 
+    margin-left: 30px;
+}

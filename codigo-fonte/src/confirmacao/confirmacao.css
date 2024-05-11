@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.daquibh.com.br/wp-content/uploads/sites/34/2017/08/Fonte_Pixabay.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.label-group {
+    margin-bottom: 30px;
+}
+
+.label-group label {
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #F1CD30;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.button-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-group button {
+    padding: 15px 30px;
+    margin: 0 20px;
+    border: 1px solid black;   
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button-group .yellow-button {
+    background-color: #F1CD30;
+    color: black;
+}
+
+.button-group .blue-button {
+    background-color: #30B7F1;
+    color: black;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+}
+
+.box-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        padding: 20px;
+    }
+}
