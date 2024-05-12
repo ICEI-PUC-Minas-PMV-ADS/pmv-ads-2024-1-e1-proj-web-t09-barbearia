@@ -6,7 +6,7 @@ footer {
     font-weight: bold;
 }
   
-i {
+i{
     color: #f1cd30;
     cursor: pointer;
     transition: color 0.5s ease;
@@ -17,6 +17,9 @@ i:hover {
 }
   
 .footer-container {
+    height: 80px;
+    width: 1500px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
