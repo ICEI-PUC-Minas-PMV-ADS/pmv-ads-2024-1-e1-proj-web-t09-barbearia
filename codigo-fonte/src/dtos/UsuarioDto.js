@@ -1,4 +1,4 @@
-export default class Usuario {
+class Usuario {
     usuario
     senha
     nomeCompleto

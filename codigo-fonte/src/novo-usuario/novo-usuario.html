@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,24 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+   
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <title>BarberShop</title>
+
+    <title>Barber.On</title>
 </head>
 <body>
 
-   
     <header>
         <nav>
         <div class="container1">
-          <div class="logo">
-           <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
-          </div>
-    
-
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
+               </div>
         </div>
       </nav>
     </header>
@@ -35,30 +34,47 @@
 
 
     <main>
-            <div class="wrapper">
-                <div class="box-form">
-                    <h2>Login</h2>
+        <div class="container">
+            <div class="wrapper ">
+                <div class="box-form ">
+                    <h2>Cadastro de usuário</h2>
                     <form action="#">
                         <div class="input-box">
-                            <input type="text" required>
+                            <input id="usuario" type="text" required>
                             <label>Nome de usuário</label>
                             <i class='bx bxs-user'></i>
                         </div>
                         <div class="input-box">
+                            <input id="nomeCompleto" type="text" required>
+                            <label>Nome Completo</label>
+                            <i class='bx bxs-user'></i>
+                        </div>
+                        <div class="input-box">
+                            <input id="email" type="E-mail" required>
+                            <label>E-mail</label>
+                            <i class='bx bxs-envelope'></i>
+                        </div>
+                        <div class="input-box">
+                            <input id="senha" type="password" required>
+                            <label>Senha</label>
+                            <i class='bx bxs-lock-alt' ></i>
+                        </div>
+                        <div class="input-box">
                             <input type="password" required>
-                            <label >Senha</label>
+                            <label>Repetir senha</label>
                             <i class='bx bxs-lock-alt' ></i>
                         </div>
                         <div class="box-btn">
-                            <button type="submit" class="btn">Login</button>
+                            <button onclick="cadastrar()" class="btn">Cadastrar</button>
                         </div>
                         <div class="registrar">
-                            <p>Não tem uma conta? <a href="./novo-usuario.html" >Cadastrar aqui</a></p>
-                            <p>Deseja cadastrar sua barbearia? <a href="./cadastro-barbearia.html">Cadastrar aqui</a></p>
+                            <p>Deseja fazer login? <a href="../login/login.html">Login</a></p>
+                            <p>Deseja cadastrar sua barbearia? <a href="../cadastro-barbearia/cadastro-barbearia.html">Cadastrar aqui</a></p>
                         </div>
                     </form>
                 </div>
             </div>
+        </div>
     </main>
 
 
@@ -83,6 +99,9 @@
           <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
         </div>
       </footer>
+
+      <script src="../dtos/UsuarioDto.js"></script>
+      <script src="./usuario.js"></script>
 
 </body>
 </html>

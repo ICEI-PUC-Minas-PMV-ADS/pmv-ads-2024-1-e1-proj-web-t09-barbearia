@@ -1,10 +1,10 @@
-export default class Barbearia {
+class Barbearia {
     usuario
     senha
     nome
     cnpj
     email
-    barbeiros
+    barbeiros = [];
     
     constructor(usuario, senha, nome, cnpj, email) {
         this.usuario = usuario;
@@ -12,6 +12,7 @@ export default class Barbearia {
         this.nome = nome;
         this.cnpj = cnpj;
         this.email = email;
+        this.barbeiros = [];
     }
 
     addBarbeiro(ObjetoBarbeiro) {

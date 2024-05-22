@@ -1,0 +1,173 @@
+.user{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.user .img-picture{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+.menu{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+
+.user ul{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.user ul li{
+    width: 100px;
+    height: 50px;
+}
+
+.user ul li button{
+    width: 100%;
+    height: 50px;
+
+    transition: .5s;
+    outline: none;
+    border: 0;
+    background-color: white;
+
+}
+
+.user ul li button:hover{
+    background-color: rgb(148, 148, 148);
+    outline: none;
+}
+
+
+
+main{
+    width: 100%;
+    min-height: calc(100vh - 106px);
+    background-image: url(../assets/img/barbearia.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 2%;
+}
+
+.info-barber{
+    display: flex;
+    align-items: center;
+}
+
+.usuario-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.img-user{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../assets/img/barbeiro1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.text-user h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.wrapper-button{
+    display: flex;
+}
+
+.wrapper-button a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #f1cd30;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+
+.historico{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.historico h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper-card{
+    width: 100%;
+}
+
+
+.card{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 40px;    
+    margin:  10px 0;
+    border-radius: 20px;
+    display: flex;    
+}
+
+.agendamento{
+    width: 50%;
+}
+.agendamento p{
+    font-size: 24px;
+}
+.result-agendamento{
+    width: 50%;
+    text-align: end;
+}
+
+.result-agendamento p{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
