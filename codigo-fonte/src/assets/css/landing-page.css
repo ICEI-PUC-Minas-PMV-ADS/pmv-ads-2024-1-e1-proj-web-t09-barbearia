@@ -379,60 +379,6 @@ button {
   border: 2px solid #000000;
 }
 
-footer {
-  background-color: #5d6989;
-  height: 130px;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-i {
-  color: #f1cd30;
-  cursor: pointer;
-  transition: color 0.5s ease;
-}
-
-i:hover {
-  color: #000000;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 5rem;
-  max-width: 80vw;
-  margin: 30px auto;
-}
-
-.nav-footer ul li a {
-  text-transform: uppercase;
-  font-size: smaller;
-  color: #f1cd30;
-  line-height: 170%;
-  transition: color 0.5s ease;
-}
-
-.nav-footer ul li a:hover {
-  color: #000000;
-}
-
-.footer-container .nav-footer ul {
-  list-style-type: none;
-}
-
-.footer-container .nav-footer ul li {
-  text-decoration: none;
-  text-align: left;
-}
-
-.copy {
-  font-size: 14px;
-  font-weight: bold;
-}
-
 
 /* Responsive */
 
