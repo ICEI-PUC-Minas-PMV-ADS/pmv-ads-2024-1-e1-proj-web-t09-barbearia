@@ -7,7 +7,7 @@
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
-    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email)
+    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, imagePerfil='' ,imageBanner = '')
 
 
     let barbeariaList = JSON.parse(localStorage.getItem('barbearia') || '[]');

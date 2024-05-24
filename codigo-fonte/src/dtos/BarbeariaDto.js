@@ -5,6 +5,8 @@ class Barbearia {
     cnpj
     email
     barbeiros = [];
+    imagePerfil
+    imageBanner
     
     constructor(usuario, senha, nome, cnpj, email) {
         this.usuario = usuario;
@@ -13,6 +15,8 @@ class Barbearia {
         this.cnpj = cnpj;
         this.email = email;
         this.barbeiros = [];
+        this.imagePerfil = imagePerfil;
+        this.imageBanner = imageBanner;
     }
 
     addBarbeiro(ObjetoBarbeiro) {

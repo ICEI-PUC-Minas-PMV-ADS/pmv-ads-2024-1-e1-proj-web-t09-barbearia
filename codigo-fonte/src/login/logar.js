@@ -1,92 +1,39 @@
 function logar(){
     
-    const usuario = document.getElementById('usuario')
+    const usuario = document.getElementById('usuario').value;
 
-    const senha = document.getElementById('senha')
+    const senha = document.getElementById('senha').value;
 
+    let userValid;
+    let barberValid;
     
-    
-    let userValid = {
-        usuario:'',
-        senha:''
-    };
-
-
-    let barberValid = {
-        usuario:'',
-        senha:'',
-        cnpj:'',
-        nome:''
-    };
-
 
     user = JSON.parse(localStorage.getItem('user'));
     
     barbearia = JSON.parse(localStorage.getItem('barbearia'));
 
-    barberValid = barbearia.find(b => b.usuario == usuario && b.senha == senha);
-    userValid = user.find(b => b.usuario == usuario && b.senha == senha);
+    barberValid = barbearia ? barbearia.find(b => b.usuario == usuario && b.senha == senha): undefined;
 
-
+    userValid = user ? user.find(b => b.usuario == usuario && b.senha == senha): undefined ;
     
 
+    if (userValid && usuario == userValid.usuario && senha == userValid.senha) {
+        console.log('usuario logado');
+        let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
+        localStorage.setItem('token', token);
 
+        window.location.href = '../feed-user/index.html';
+        localStorage.setItem('userLogado', JSON.stringify(userValid));
+    } else if (barberValid && usuario == barberValid.usuario && senha == barberValid.senha) {
+        let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
+        localStorage.setItem('token', token);
 
-
-    if(usuario.value == userValid.usuario && senha.value == userValid.senha){
-
-        console.log('usuario logado')
-
-        
-        
-        let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
-        localStorage.setItem('token', token)
-
-
-        window.location.href = '../feed-user/index.html'
-
-        localStorage.setItem('userLogado', JSON.stringify(userValid))
-
-    }else if(usuario.value == barberValid.usuario && senha.value == barberValid.senha){
-
-        let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2)
-        localStorage.setItem('token', token)
-
-        window.location.href = '../feed/index.html'
-
-
-        localStorage.setItem('barberLogado', JSON.stringify(barberValid))
-
-    }else{
-
-        console.log('barbeiro ou usuario não logado')
-
-    }
-
-
-
-
-
-    
-    /*
-    try {
-    let barbeiroEncontrado = barbearia.find(item => item.hasOwnProperty('cnpj') && usuario.value === item.usuario && senha.value === item.senha);
-
-    if (barbeiroEncontrado) {
-        console.log('Barbeiro logado');
+        window.location.href = '../feed/index.html';
+        localStorage.setItem('userLogado', JSON.stringify(barberValid));
     } else {
-        let usuarioEncontrado = user.find(e => usuario.value === e.usuario && senha.value === e.senha);
-
-        if (usuarioEncontrado) {
-            console.log('Usuário logado');
-        } else {
-            console.log('Usuário/barbearia não cadastrado');
-        }
+        console.log('barbeiro ou usuario não logado');
     }
-    } catch (error) {
-        console.error('deu erro:', error);
-    }
-    */
-    
 
-}
+
+
+};
