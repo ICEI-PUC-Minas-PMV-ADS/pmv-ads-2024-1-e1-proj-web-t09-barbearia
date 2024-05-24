@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
+
+    <title>Barber.On</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+          <div class="container1">
+            <div class="logo">
+              <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
+            </div>
+            
+            <div class="user" id="imgMenu">
+                <img class="img-picture" src="../assets/img/barbeiro1.jpg" alt="">
+                <div class="menu"  id="btnSair">
+                    <ul>
+                      <li><button onclick="deslogar()">sair</button></li>
+                    </ul>
+
+                </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container">
+            <div class="info-barber">
+                <div class="img-user">
+                </div>
+                <div class="usuario-info">
+                  <div class="text-user">
+                      <h2 id="nameBarber"></h2>
+                  </div>
+                  <div class="wrapper-button">
+                    <a href="#">cadastrar barbeiro</a>
+                </div>
+                </div>
+
+
+            </div>
+
+            <div class="historico">
+                <h2>Historico</h2>
+                <div class="wrapper-card">
+                    <div class="card">
+                        <div class="agendamento">
+                            <p>Agendamento</p>
+                        </div>
+                        <div class="result-agendamento">
+                            <p>13/05/2024</p>
+                            <p>R$20,00</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="agendamento">
+                            <p>Agendamento</p>
+                        </div>
+                        <div class="result-agendamento">
+                            <p>13/05/2024</p>
+                            <p>R$20,00</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="agendamento">
+                            <p>Agendamento</p>
+                        </div>
+                        <div class="result-agendamento">
+                            <p>13/05/2024</p>
+                            <p>R$20,00</p>
+                        </div>
+                    </div>
+
+                </div>  
+            </div>
+        </div>
+      </main>
+
+
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="nav-footer">
+            <ul>
+              <li><a href="#">Termos de uso e política de privacidade.</a></li>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
+            </ul>
+          </div>
+      
+          <div class="icons">
+            <i class='bx bxl-facebook-circle bx-md'></i>
+            <i class='bx bxl-gmail bx-md'></i>
+            <i class='bx bxl-instagram-alt bx-md'></i>
+          </div>
+        </div>
+      
+        <div class="copy">
+          <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+
+
+  <script src="./feed.js"></script>
+
+</body>
+</html>
