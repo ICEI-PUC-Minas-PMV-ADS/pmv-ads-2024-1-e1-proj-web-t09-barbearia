@@ -46,12 +46,12 @@
             <img width="310" height="300" src="../assets/img/barbeiro1.jpg">
             <p>Barbeiro 1<br>Disponível de 9:00 ás 19:00</p>
             <label class="formulario" class="formulario" for="data"> <strong>Data do Agendamento:</strong></label>
-            <input class="formulario" type="date" name="dt"><br>
+            <input class="formulario" type="date" id="data" ><br>
             <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
             <input class="formulario" type="time" id="hora" name="horacadastro"><br>
             <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
 
-            <select name="Serviços">
+            <select name="Serviços" id="servico">
                 <option value="" Selecione um serviço></option>
                 <option value="Cabelo">Cabelo</option>
                 <option value="Barba">Barba</option>
@@ -59,7 +59,7 @@
 
 
             </select>
-            <button class="agenda">Agendar</button>
+            <button class="agenda" onclick="agendar()">Agendar</button>
 
         </div>
         <div class="form">
@@ -128,6 +128,10 @@
         <div class="copy">
           <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
       </footer>
+
+
+      <script src="../dtos/AgendamentoDto.js"></script>
+      <script src="./index.js"></script>
 
 </body>
 

@@ -37,3 +37,4 @@ imgUsuario.src = userLogado.imagePerfil;
 imgPerfil.src = userLogado.imagePerfil;
 
 
+

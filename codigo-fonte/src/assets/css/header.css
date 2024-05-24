@@ -1,4 +1,4 @@
-a {
+/*a {
     text-decoration: none;
     list-style: none;
     color: #000000;
@@ -51,10 +51,10 @@ a {
     transition: width 0.7s ease;
 }
 
+
 .navigation ul li:hover::after {
     width: 100%;
 }
-
 .login .btn-cadastro,
 .login .btn-login {
     text-transform: uppercase;
@@ -73,5 +73,155 @@ a {
 .login .btn-login:hover {
     color: #333;
     background-color: #d3b52f;
+}*/
+
+header{
+    width: 100%;
+    height: 106px;
+    background-color: #5d6989;
+    border-bottom: 3px solid #f1cd30;
+}
+header .container{
+    max-width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 
+header .container .navigation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .navigation .logo{
+    width: 100px;
+    height: 100%;
+    
+}
+
+header .container .navigation .logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+header .container .navigation .nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .navigation .nav ul{
+    display: flex;
+    
+}
+
+header .container .navigation .nav ul li{
+    margin: 0 25px;
+    position: relative;
+    transition: 0.7s ease;
+    padding: 5px 0;
+}
+
+.navigation .nav ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f1cd30;
+    transition:  0.7s ease;
+
+}
+
+.navigation .nav ul li:hover::after {
+    width: 100%;
+}
+
+header .container .navigation .nav ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.box-menu{
+    width: 200px;
+}
+
+
+.login{
+    display: flex;
+}
+
+.login a{
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #f1cd30;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color: #333;
+    background-color: #d3b52f;
+}
+
+.user-menu{
+    width: 100%;
+    position: relative;
+}
+
+.user-menu img{
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+.user-menu .menu{
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    right: 15%;
+    z-index: 999;
+}
+
+.user-menu .menu ul {
+    width: 100%;
+    list-style: none;
+}
+.user-menu .menu ul li{
+    width: 100%;
+}
+
+.user-menu .menu ul li button{
+    width: 100%;
+    border-radius: 0;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    padding: 0;
+    background-color: #f1cd30;
+    font-weight: 700;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.user-menu .menu ul li button:hover{
+    background-color: #b49a24;
+
+}
