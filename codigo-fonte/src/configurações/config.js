@@ -12,7 +12,7 @@ let userLogado = JSON.parse(localStorage.getItem('userLogado'));
 let imagemDoPerfil;// alterar nome
 let imagemDoPerfil2;// alterar nome
 
-let imageDoBanner;// alterar nome
+let imageDoBanner;//  alterar nome
 let imageDoBanner2;// alterar nome
 
 
@@ -77,9 +77,10 @@ document.getElementById('img-banner').addEventListener('change', function () {
 
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
 
-        imageDoBanner = barbearia ? barbearia.find(b => b.usuario == userLogado.usuario):undefined;
+        imageDoBanner = barbearia ? barbearia.find(b => b.usuario == userLogado.usuario) : undefined;
 
-        imageDoBanner.imageBanner = reader.result;
+        barbearia[barbearia.indexOf(imageDoBanner)].imageBanner = reader.result;
+        console.log(barbearia)
 
         localStorage.setItem('barbearia', JSON.stringify(barbearia));
 
