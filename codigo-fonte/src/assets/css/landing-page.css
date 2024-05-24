@@ -1,5 +1,5 @@
 /* Navbar */
-
+/*
 a{
   text-decoration: none;
   list-style: none;
@@ -74,7 +74,7 @@ a{
 .login a:hover {
   color: #333;
   background-color: #d3b52f;
-}
+}*/
 
 /* Página Home */
 
@@ -365,7 +365,7 @@ label {
   height: 50px;
 }
 
-button {
+.btn-submit{
   padding: 10px 15px;
   background-color: #f1cd30;
   color: #000000;

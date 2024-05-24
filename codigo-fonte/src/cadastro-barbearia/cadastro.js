@@ -6,6 +6,7 @@
     const cnpj = document.getElementById('cnpj').value
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
+    
 
     const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, imagePerfil='' ,imageBanner = '')
 

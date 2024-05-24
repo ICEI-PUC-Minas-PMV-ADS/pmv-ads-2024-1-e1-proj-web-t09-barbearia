@@ -9,7 +9,7 @@ let imgPerfil = document.getElementById('imgPerfil');
 let barbearia = JSON.parse(localStorage.getItem('barbearia'))
 let userLogado = JSON.parse(localStorage.getItem('userLogado'));
 
-let imagemDoPerfil;// alterar nome
+let barbearias;// alterar nome
 let imagemDoPerfil2;// alterar nome
 
 let imageDoBanner;//  alterar nome
@@ -32,8 +32,6 @@ btnMenu.addEventListener('click', () => {
     }
 });
 
-
-
 function voltar() {
     window.location = '../feed/index.html';
 };
@@ -50,10 +48,10 @@ document.getElementById('img-perfil').addEventListener('change', function() {
 
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
 
-        imagemDoPerfil = barbearia ? barbearia.find(b => b.usuario == userLogado.usuario):undefined;
+        barbearias = barbearia ? barbearia.find(b => b.usuario == userLogado.usuario):undefined;
     
-        imagemDoPerfil.imagePerfil = reader.result;
-        imgPerfil.src = imagemDoPerfil.imagePerfil; 
+        barbearias.imagePerfil = reader.result;
+        imgPerfil.src = barbearias.imagePerfil; 
         localStorage.setItem('barbearia', JSON.stringify(barbearia));
         
     });
@@ -80,7 +78,6 @@ document.getElementById('img-banner').addEventListener('change', function () {
         imageDoBanner = barbearia ? barbearia.find(b => b.usuario == userLogado.usuario) : undefined;
 
         barbearia[barbearia.indexOf(imageDoBanner)].imageBanner = reader.result;
-        console.log(barbearia)
 
         localStorage.setItem('barbearia', JSON.stringify(barbearia));
 

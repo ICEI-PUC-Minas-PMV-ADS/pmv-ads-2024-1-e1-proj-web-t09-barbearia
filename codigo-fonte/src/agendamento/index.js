@@ -26,5 +26,6 @@ function agendar() {
 
 
     console.log(userLogado);
-
 }
+
+
