@@ -1,81 +1,3 @@
-/* Navbar */
-
-a{
-  text-decoration: none;
-  list-style: none;
-  color: #000000;
-}
-
-.container1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5rem;
-  background-color: #5d6989;
-  max-width: 100vw;
-  margin: 0 auto;
-  border-bottom: 3px solid #f1cd30;
-  height: 106px;
-}
-
-.logo img{
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-}
-
-.navigation ul {
-  display: flex;
-  text-align: center;
-}
-
-.navigation ul li {
-  padding: 10px 15px;
-  color: #000000;
-  font-weight: bolder;
-  list-style: none;
-  text-transform: uppercase;
-  position: relative;
-  cursor: pointer;
-  transition: color 0.7s ease;
-  transition: border-bottom 0.9s ease;
-  border-bottom: solid 2px transparent;
-}
-
-.navigation ul li::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #f1cd30;
-  transition: width 0.7s ease;
-}
-
-.navigation ul li:hover::after {
-  width: 100%;
-}
-
-.login a {
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  display: inline-block;
-  border-radius: 5px;
-  padding: 10px 15px;
-  background-color: #f1cd30;
-  color: #000000;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-}
-
-.login a:hover {
-  color: #333;
-  background-color: #d3b52f;
-}
-
 /* Página Home */
 
 section.hero {
@@ -438,6 +360,4 @@ button .btn-act{
   justify-content: end;
   padding: 0;
   margin: 0;
-
-
 }
