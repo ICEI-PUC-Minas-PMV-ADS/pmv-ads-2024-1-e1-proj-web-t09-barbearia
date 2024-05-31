@@ -2,136 +2,161 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-sacale=1.5">
-    <title>Barber.On</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../agendamento/agendamento.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-sacale=1.5">
+  <title>Barber.On</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../agendamento/agendamento.css">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+
+
 </head>
 
 <body>
-    <header>
-        <nav>
-        <div class="container1">
-          <div class="logo">
-            <img src="../assets/img/Logo.svg" alt="logo-website" />
-          </div>
-    
-          <div class="navigation">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">barbearias</a></li>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">contato</a></li>
-            </ul>
-          </div>
-    
+  <header>
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">
+          <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./index.html">Barbearias</a></li>
+            <li><a href="../index.html">Sobre</a></li>
+            <li><a href="../index.html">Blog</a></li>
+            <li><a href="../index.html">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="box-menu" id="box-menu">
           <div class="login">
-              <button class="btn-cadastro">Cadastre-se</button>
-              <button class="btn-login">Login</button>
+            <button class="btn-cadastro">Cadastrar</button>
+            <button class="btn-login">Login</button>
           </div>
         </div>
-      </nav>
-    </header>
-
-    
-    <main>
-        <h1>Barbearia Na Valha <img width="60" height="60" src="../assets/img/logocolorido.png" alt="logo"></h1>
-        <div class="form">
-            <img width="310" height="300" src="../assets/img/barbeiro1.jpg">
-            <p>Barbeiro 1<br>Disponível de 9:00 ás 19:00</p>
-            <label class="formulario" class="formulario" for="data"> <strong>Data do Agendamento:</strong></label>
-            <input class="formulario" type="date" id="data" ><br>
-            <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
-            <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-            <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
-
-            <select name="Serviços" id="servico">
-                <option value="" Selecione um serviço></option>
-                <option value="Cabelo">Cabelo</option>
-                <option value="Barba">Barba</option>
-                <option value="Pintura">Pintura</option>
+      </div>
+    </div>
+    </div>
+  </header>
 
 
-            </select>
-            <button class="agenda" onclick="agendar()">Agendar</button>
-
+  <!-- <header>
+    <nav>
+      <div class="container1">
+        <div class="logo">
+          <img src="../assets/img/Logo.svg" alt="logo-website" />
         </div>
-        <div class="form">
-            <img width="310" height="300" src="../assets/img/barbeiro2.jpg">
-            <p>Barbeiro 2<br>Disponível de 9:00 ás 19:00</p>
-            <label class="formulario" for="data"><strong> Data do Agendamento:</strong></label>
-            <input class="formulario" type="date" name="dt"><br>
-            <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
-            <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-            <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
 
-            <select name="Serviços">
-                <option value="" Selecione um serviço></option>
-                <option value="Cabelo">Cabelo</option>
-                <option value="Barba">Barba</option>
-                <option value="Pintura">Pintura</option>
-
-
-            </select>
-            <button class="agenda">Agendar</button>
-
+        <div class="navigation">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">barbearias</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contato</a></li>
+          </ul>
         </div>
-        <div class="form">
-            <img width="310" height="300" src="../assets/img/barbeiro3.jpeg">
-            <p>Barbeiro 3<br>Disponível de 9:00 ás 19:00</p>
-            <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
-            <input class="formulario" type="date" name="dt"><br>
-            <label class="formulario" for="hora"><strong>Horário Agendamento:<strong></label>
-            <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-            <label class="formulario" for="Serviços">Serviços</label>
 
-            <select name="Serviços">
-                <option value="" Selecione um serviço></option>
-                <option value="Cabelo">Cabelo</option>
-                <option value="Barba">Barba</option>
-                <option value="Pintura">Pintura</option> 
-
-
-            </select>
-            <button class="agenda">Agendar</button>
-         
+        <div class="login">
+          <button class="btn-cadastro">Cadastre-se</button>
+          <button class="btn-login">Login</button>
         </div>
-        
-    </main>
-    <footer>
+      </div>
+    </nav>
+  </header> 
+-->
 
-        <div class="footer-container">
-      
-          <div class="nav-footer">
-            <ul>
-              <li><a href="#">Termos de uso e política de privacidade.</a></li>
-              <li><a href="#">Fale conosco</a></li>
-              <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
-            </ul>
-          </div>
-      
-      
-          <div class="icons">
-            <i class='bx bxl-facebook-circle bx-md'></i>
-            <i class='bx bxl-gmail bx-md'></i>
-            <i class='bx bxl-instagram-alt bx-md'></i>
-          </div>
-      
-        </div>
-      
-        <div class="copy">
-          <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
-      </footer>
+  <main>
+    <h1>Barbearia Na Valha <img width="60" height="60" src="../assets/img/logocolorido.png" alt="logo"></h1>
+    <div class="form">
+      <img width="310" height="300" src="../assets/img/barbeiro1.jpg">
+      <p>Barbeiro 1<br>Disponível de 9:00 ás 19:00</p>
+      <label class="formulario" class="formulario" for="data"> <strong>Data do Agendamento:</strong></label>
+      <input class="formulario" type="date" id="data"><br>
+      <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
+      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+      <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
+
+      <select name="Serviços" id="servico">
+        <option value="" Selecione um serviço></option>
+        <option value="Cabelo">Cabelo</option>
+        <option value="Barba">Barba</option>
+        <option value="Pintura">Pintura</option>
 
 
-      <script src="../dtos/AgendamentoDto.js"></script>
-      <script src="./index.js"></script>
+      </select>
+      <button class="agenda" onclick="agendar()">Agendar</button>
+
+    </div>
+    <div class="form">
+      <img width="310" height="300" src="../assets/img/barbeiro2.jpg">
+      <p>Barbeiro 2<br>Disponível de 9:00 ás 19:00</p>
+      <label class="formulario" for="data"><strong> Data do Agendamento:</strong></label>
+      <input class="formulario" type="date" name="dt"><br>
+      <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
+      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+      <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
+
+      <select name="Serviços">
+        <option value="" Selecione um serviço></option>
+        <option value="Cabelo">Cabelo</option>
+        <option value="Barba">Barba</option>
+        <option value="Pintura">Pintura</option>
+
+
+      </select>
+      <button class="agenda" onclick="agendar()">Agendar</button>
+
+
+    </div>
+    <div class="form">
+      <img width="310" height="300" src="../assets/img/barbeiro3.jpeg">
+      <p>Barbeiro 3<br>Disponível de 9:00 ás 19:00</p>
+      <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
+      <input class="formulario" type="date" name="dt"><br>
+      <label class="formulario" for="hora"><strong>Horário Agendamento:<strong></label>
+      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+      <label class="formulario" for="Serviços">Serviços</label>
+
+      <select name="Serviços">
+        <option value="" Selecione um serviço></option>
+        <option value="Cabelo">Cabelo</option>
+        <option value="Barba">Barba</option>
+        <option value="Pintura">Pintura</option>
+
+
+      </select>
+      <button class="agenda" onclick="agendar()">Agendar</button>
+
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Termos de uso e política de privacidade.</a></li>
+          <li><a href="#">Fale conosco</a></li>
+          <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <i class='bx bxl-facebook-circle bx-md'></i>
+        <i class='bx bxl-gmail bx-md'></i>
+        <i class='bx bxl-instagram-alt bx-md'></i>
+      </div>
+    </div>
+
+    <div class="copy">
+      <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="../dtos/AgendamentoDto.js"></script>
+  <script src="./index.js"></script>
 
 </body>
 
