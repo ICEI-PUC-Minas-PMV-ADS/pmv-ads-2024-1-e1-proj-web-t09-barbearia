@@ -1,57 +1,29 @@
     const textUser = document.querySelector('.text-user');
 
-    const btnMenu = document.getElementById('imgMenu');
-    const btnSair = document.getElementById('btnSair');
-
     const cardGroup = document.getElementById('card-group');
 
-    const imgPerfil = document.getElementById('imgPerfil');
-
-    let barbeaira = JSON.parse(localStorage.getItem('barbearia'));
-
-    let userLogado = JSON.parse(localStorage.getItem('userLogado'));
-    
-    if (userLogado.hasOwnProperty('cnpj')) {
-
-        imgPerfil.src = userLogado.imagePerfil;
-
-
-        function perfil(){
-            window.location.href = '../feed/index.html'
-        }
-    } else { 
-        imgPerfil.src = userLogado.imagePerfil;
-
-        function perfil(){
-            window.location.href = '../feed-user/index.html'
-        }
-    }
-
-  
-
-    function deslogar(){
-
-        localStorage.removeItem('userLogado');
-
-        localStorage.removeItem('token');
-        window.location.href = '../login/login.html';
-    }
+    let boxMenu = document.getElementById('box-menu');
 
 
 
-    btnMenu.addEventListener('click', () => {
-        if (btnSair.classList.contains('open')) {
-            btnSair.classList.remove('open');
+
+    //verificação do header
+    if(userLogado){
+        if (userLogado.hasOwnProperty('cnpj')) {
+            renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html', '../login/login.html');
         } else {
-            btnSair.classList.add('open');
+            renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html', '../login/login.html');
         }
-    });
+    } else {
+        renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html')
+    }
+
+// função para colocar cards na tela de acordo com o numero de barbeiro cadastrados
 
     function cards(){
-
-        barbeaira.forEach(b => {
+        barbearia.forEach(b => {
             cardGroup.innerHTML += `
-            <div class="card">
+                <div class="card">
                     <div class="image-barbearia">
                         <img src="${b.imageBanner}" alt="">
                     </div>
@@ -65,12 +37,11 @@
                 </div>
             `
         })
-
     }
-
     cards()
 
+    // função do header
 
-
+   
 
 

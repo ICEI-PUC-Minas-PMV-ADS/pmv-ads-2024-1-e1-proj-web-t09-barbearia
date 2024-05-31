@@ -173,3 +173,9 @@ main{
     margin-bottom: 30px;
     font-size: 24px;
 }
+
+
+.wrapper-button .cadastroBarber{
+    
+    display: none;
+}

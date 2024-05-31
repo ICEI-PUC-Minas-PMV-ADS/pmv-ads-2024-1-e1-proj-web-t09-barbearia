@@ -98,7 +98,7 @@ header .container .navigation{
 
 header .container .navigation .logo{
     width: 100px;
-    height: 100%;
+    height: 100px;
     
 }
 
@@ -159,7 +159,7 @@ header .container .navigation .nav ul li a{
     display: flex;
 }
 
-.login a{
+.login button{
     margin: 0 5px;
     text-transform: uppercase;
     font-size: 14px;
@@ -175,7 +175,7 @@ header .container .navigation .nav ul li a{
     text-decoration: none;
 }
 
-.login a:hover{
+.login button:hover{
     color: #333;
     background-color: #d3b52f;
 }
@@ -197,6 +197,11 @@ header .container .navigation .nav ul li a{
     background-color: white;
     right: 15%;
     z-index: 999;
+    display: none;
+}
+
+.user-menu .menu.open{
+    display: block;
 }
 
 .user-menu .menu ul {

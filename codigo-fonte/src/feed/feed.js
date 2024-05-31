@@ -1,40 +1,80 @@
-const textUser = document.querySelector('.text-user');
-
-const btnMenu = document.getElementById('imgMenu');
-const btnSair = document.getElementById('btnSair');
-
-let imgUsuario = document.getElementById('imgUsuario');
-let imgPerfil = document.getElementById('imgPerfil');
-
-let nameBarber = document.getElementById('nameBarber');
-
 let userLogado = JSON.parse(localStorage.getItem('userLogado'));
+let boxMenu = document.getElementById('box-menu');
+let nameBarber = document.getElementById('nameBarber');
+let imgUsuario = document.getElementById('imgUsuario');
 
-nameBarber.innerHTML = `${userLogado.nome}`;
+let cadastroBarber = document.getElementById('cadastroBarber');
 
-
-
-
-function deslogar() {
-
-    localStorage.removeItem('userLogado');
-
-    localStorage.removeItem('token');
-    window.location.href = '../login/login.html';
-};
-
-
-btnMenu.addEventListener('click', () => {
-    if (btnSair.classList.contains('open')) {
-        btnSair.classList.remove('open');
-    } else {
-        btnSair.classList.add('open');
+// verificando se o usuario e um cliente ou um barbeiro ou um visitante / se não é um barbeiro não tem acesso a algumas funções 
+if(userLogado){
+    if(userLogado.hasOwnProperty('cnpj')){
+        renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html');
+        nameBarber.innerHTML = `${userLogado.nome}`;
+    }else{
+        renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html');
+        nameBarber.innerHTML = `${userLogado.usuario}`;
+        cadastroBarber.classList.add('cadastroBarber');
     }
-});
+}else{
+    renderMenuVisitante()
+}
 
-
+// aqui coloca a imagem que o usuario no main da tela 
 imgUsuario.src = userLogado.imagePerfil;
-imgPerfil.src = userLogado.imagePerfil;
 
 
+// funções do header da pagina 
+function renderMenuUsuario(imagePerfil, perfilHref, configHref) {
+    boxMenu.innerHTML += `
+    <div class="user-menu" >
+        <img src="${imagePerfil}" id="OpenMenu" alt="">
 
+        <div class="menu " id="menu">
+            <ul>
+                <li><button onclick="perfil()">Perfil</button></li>
+                <li><button onclick="config()">Configurações</button></li>
+                <li><button onclick="sair()">Sair</button></li>
+            </ul>
+        </div>
+    </div>
+`
+document.getElementById('OpenMenu').addEventListener('click', () => {
+
+    let btnMenu = document.getElementById('menu'); 
+        if (btnMenu.classList.contains('open')) {
+            btnMenu.classList.remove('open');
+        } else {
+            btnMenu.classList.add('open');
+        }
+    });
+
+
+    window.perfil = function() {
+        window.location.href = perfilHref;
+    };
+
+    window.config = function() {
+        window.location.href = configHref;
+    };
+    window.sair = function(){
+        localStorage.removeItem('userLogado');
+
+        localStorage.removeItem('token');
+        window.location.href = '../login/login.html';
+    };
+};
+function renderMenuVisitante(cadastrarHref, loginHref){
+    boxMenu.innerHTML += `
+    <div class="login">
+        <button onclick="cadastra()">Cadastrar</button>
+        <button onclick="login()">Login</button>
+    </div>
+    `
+    window.cadastra = function(){
+        window.location.href = cadastrarHref;
+    };
+
+    window.login = function(){
+        window.location.href = loginHref;
+    };
+}

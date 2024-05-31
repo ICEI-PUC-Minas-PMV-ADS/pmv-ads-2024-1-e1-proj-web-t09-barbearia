@@ -1,43 +1,15 @@
-let userLogado = JSON.parse(localStorage.getItem('userLogado'));
 let boxMenu = document.getElementById('box-menu');
 
-if (userLogado) {
-    if (userLogado.hasOwnProperty('cnpj')) {
-        boxMenu.innerHTML += `
-                <div class="user-menu" >
-                    <img src="./assets/img/barbeiro1.jpg" alt="">
+//verificando o header
 
-                    <div class="menu" id="menu" >
-                        <ul>
-                            <li><button id="btn-perfil">Perfil</button></li>
-                            <li><button id="">Configurações</button></li>
-                            <li><button id="">Sair</button></li>
-                        </ul>
-                    </div>
-                </div>
-        `
-    } else {
+if(userLogado){
+    if(userLogado.hasOwnProperty('cnpj')){
+        renderMenuUsuario(userLogado.imagePerfil, './feed/index.html', 'configurações/index.html', './login/login.html');
         
-
+    }else{
+        renderMenuUsuario(userLogado.imagePerfil, './feed/index.html', 'configurações/index.html', './login/login.html');
     }
-
-
-
-} else {
-
-    boxMenu.innerHTML += `
-            <div class="login">
-                <a href="../src/novo-usuario/novo-usuario.html">Cadastrar</a>
-                <a href="../src/login/login.html">Login</a>
-            </div>
-    `
-
+}else{
+    renderMenuVisitante('./novo-usuario/novo-usuario.html','./login/login.html');
 }
 
-
-
-
-
-let btnPerfil = document.getElementById('btn-perfil').addEventListener('click',()=>{
-    window.location.href = '../src/feed/index.html'
-})

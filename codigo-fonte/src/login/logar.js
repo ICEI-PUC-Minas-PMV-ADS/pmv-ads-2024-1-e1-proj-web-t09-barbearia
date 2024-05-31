@@ -1,5 +1,4 @@
 function logar(){
-    
     const usuario = document.getElementById('usuario').value;
 
     const senha = document.getElementById('senha').value;
@@ -22,7 +21,7 @@ function logar(){
         let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
         localStorage.setItem('token', token);
 
-        window.location.href = '../feed-user/index.html';
+        window.location.href = '../feed/index.html';
         localStorage.setItem('userLogado', JSON.stringify(userValid));
     } else if (barberValid && usuario == barberValid.usuario && senha == barberValid.senha) {
         let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
@@ -33,7 +32,4 @@ function logar(){
     } else {
         console.log('barbeiro ou usuario não logado');
     }
-
-
-
 };

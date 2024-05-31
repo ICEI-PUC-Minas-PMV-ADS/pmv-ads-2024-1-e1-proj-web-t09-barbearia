@@ -19,25 +19,55 @@
     <title>Barber.On</title>
 </head>
 <body>
-    <header>
-        <nav>
-          <div class="container1">
-            <div class="logo">
-              <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
-            </div>
-            
-            <div class="user" id="imgMenu">
-                <img class="img-picture" src="" id="imgPerfil" alt="">
-                <div class="menu"  id="btnSair">
-                    <ul>
-                      <li><button onclick="deslogar()">sair</button></li>
-                      <li><button onclick="voltar()">Voltar</button></li>
-                    </ul>
-                </div>
-            </div>
-          </div>
+  <header>
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
+        </div>
+
+        <nav class="nav">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../barbearias/index.html">Barbearias</a></li>
+              <li><a href="../index.html">Sobre</a></li>
+              <li><a href="../index.html">Blog</a></li>
+              <li><a href="../index.html" >Contato</a></li>
+            </ul>
         </nav>
-      </header>
+
+        <div class="box-menu" id="box-menu">
+
+
+        <!--
+
+
+          <div class="login" style="display: none;">
+              <a href="#">Cadastrar</a>
+              <a href="#">Login</a>
+          </div>
+
+          <div class="user-menu" >
+              <img src="./assets/img/barbeiro1.jpg" alt="">
+
+              <div class="menu" id="menu" >
+                  <ul>
+                    <li><button>Perfil</button></li>
+                    <li><button>Configurações</button></li>
+                    <li><button>Sair</button></li>
+
+                </ul>
+              </div>
+          </div>
+           -->  
+
+
+
+
+        </div>
+      </div>
+    </div>
+</header>
 
       <main>
             <div class="wrapper">
@@ -45,7 +75,7 @@
 
                 <form action="">
                     <div class="config-grupo">
-                        <div class="input-box">
+                        <div class="input-box " id="banner">
                             <label for="img-banner">Selecione um banner</label>
                             <input type="file" id="img-banner">
                         </div>
@@ -53,11 +83,11 @@
                           <label for="img-perfil">Selecione uma imagem de perfil</label>
                           <input type="file" id="img-perfil">
                         </div>
-                        <div class="address-input ">
+                        <div class="address-input " id="address">
                           <label for="">Digite o endereço de sua barbearia:</label>
                             <input type="text" placeholder="Digite seu endereço" id="addressBarber">
                         </div>
-                        <button type="submit" onclick="enviar()">Enviar</button>      
+                        <button type="submit" id="enviar" class="" onclick="enviar()">Enviar</button>      
                     </div>
                 </form>
             </div>
@@ -88,8 +118,9 @@
         </div>
       </footer>
 
+<a href="../feed/index.html"></a>
 
-  <script src="./config.js"></script>
-
+     <!--<script src="../assets/js/index.js"></script> --> 
+      <script src="./config.js"></script>
 </body>
 </html>

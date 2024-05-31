@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <title>Barber.On</title>
 </head>
 <body>
 
 
-    <header>
-        <nav>
-          <div class="container1">
-            <div class="logo">
-              <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
-            </div>
+  <header>
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">
+            <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
+        </div>
+        <nav class="nav">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./index.html">Barbearias</a></li>
+              <li><a href="../index.html">Sobre</a></li>
+              <li><a href="../index.html">Blog</a></li>
+              <li><a href="../index.html" >Contato</a></li>
+            </ul>
+        </nav>
+        <div class="box-menu" id="box-menu">
+        <!--
+          <div class="login" style="display: none;">
+              <a href="#">Cadastrar</a>
+              <a href="#">Login</a>
+          </div>
 
-            <div class="navigation">
-                <ul>
-                  <li><a href="../index.html">home</a></li>
-                  <li><a href="#">barbearias</a></li>
-                  <li><a href="../index.html">sobre</a></li>
-                  <li><a href="../index.html">blog</a></li>
-                  <li><a href="../index.html">contato</a></li>
+          <div class="user-menu" >
+              <img src="./assets/img/barbeiro1.jpg" alt="">
+
+              <div class="menu" id="menu" >
+                  <ul>
+                    <li><button>Perfil</button></li>
+                    <li><button>Configurações</button></li>
+                    <li><button>Sair</button></li>
+
                 </ul>
               </div>
-            
-            <div class="user" id="imgMenu">
-                <img class="img-picture" id="imgPerfil" src="" alt="">
-                <div class="menu"  id="btnSair">
-                    <ul>
-                      <li><button onclick="deslogar()">sair</button></li>
-                      <li><button onclick="perfil()">Perfil</button></li>
-                    </ul>
-                </div>
-            </div>
           </div>
-        </nav>
-      </header>
+           -->  
+        </div>
+      </div>
+    </div>
+</header>
 
       <main>
         <div class="wrapper">
@@ -88,7 +105,8 @@
           <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
         </div>
       </footer>
-
+      <script src="../assets/js/import.js"></script>
+      <script src="../assets/js/header.js"></script>
       <script src="./barbearias.js"></script>
     
 </body>

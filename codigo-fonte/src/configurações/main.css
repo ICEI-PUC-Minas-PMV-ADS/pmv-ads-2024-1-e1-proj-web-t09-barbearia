@@ -123,6 +123,9 @@ main{
     border: 2px solid black;
     padding: 10px;
 }
+
+
+
 .address-input input{
     width: 100%;
     height: 40px;
@@ -145,4 +148,13 @@ main{
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;   
+}
+
+
+.address,
+.banner{
+    display: none;
+}
+.config-grupo button.enviar{
+    display: none;
 }

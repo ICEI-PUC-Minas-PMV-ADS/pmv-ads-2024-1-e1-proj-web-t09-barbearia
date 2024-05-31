@@ -20,119 +20,127 @@
 </head>
 <body>
     
-    <header>
-        <nav>
-          <div class="container1">
-            <div class="logo">
-              <a href="../index.html"><img src="../assets/img/Logo.svg" alt="logo-website" /></a>
-            </div>
-            
-            <div class="navigation">
-              <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="../barbearias/index.html">barbearias</a></li>
-                <li><a href="../index.html">sobre</a></li>
-                <li><a href="../index.html">blog</a></li>
-                <li><a href="../index.html">contato</a></li>
+<header> 
+  <div class="container">
+    <div class="navigation">
+      <div class="logo">
+          <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
+      </div>
+
+      <nav class="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../barbearias/index.html">Barbearias</a></li>
+            <li><a href="../index.html">Sobre</a></li>
+            <li><a href="../index.html">Blog</a></li>
+            <li><a href="../index.html" >Contato</a></li>
+          </ul>
+      </nav>
+
+      <div class="box-menu" id="box-menu">
+      <!--
+        <div class="login" style="display: none;">
+            <a href="#">Cadastrar</a>
+            <a href="#">Login</a>
+        </div>
+
+        <div class="user-menu" >
+            <img src="./assets/img/barbeiro1.jpg" alt="">
+
+            <div class="menu" id="menu" >
+                <ul>
+                  <li><button>Perfil</button></li>
+                  <li><button>Configurações</button></li>
+                  <li><button>Sair</button></li>
+
               </ul>
             </div>
-          
+        </div>
+        -->  
+      </div>
+    </div>
+  </div>
+</header>
 
-            <div class="user" id="imgMenu">
-                <img class="img-picture" src="" id="imgPerfil" alt="">
-                <div class="menu"  id="btnSair">
-                    <ul>
-                      <li><button onclick="deslogar()">sair</button></li>
-                    </ul>
-
-                </div>
+<main>
+<div class="container">
+    <div class="info-barber">
+        <div class="img-user" >
+          <img src="" id="imgUsuario" alt="">
+        </div>
+        <div class="usuario-info">
+            <div class="text-user">
+                <h2 id="nameBarber"></h2>
             </div>
-          </div>
-        </nav>
-      </header>
-
-      <main>
-        <div class="container">
-            <div class="info-barber">
-                <div class="img-user" >
-                  <img src="" id="imgUsuario" alt="">
-                </div>
-                <div class="usuario-info">
-                  <div class="text-user">
-                      <h2 id="nameBarber"></h2>
-                  </div>
-                  <div class="wrapper-button">
-                    <a href="#">cadastrar barbeiro</a>
-                    <a href="../configurações/index.html">Configurações</a>
-                </div>
-                </div>
-
-
-            </div>
-
-            <div class="historico">
-                <h2>Historico</h2>
-                <div class="wrapper-card">
-                    <div class="card">
-                        <div class="agendamento">
-                            <p>Agendamento</p>
-                        </div>
-                        <div class="result-agendamento">
-                            <p>13/05/2024</p>
-                            <p>R$20,00</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="agendamento">
-                            <p>Agendamento</p>
-                        </div>
-                        <div class="result-agendamento">
-                            <p>13/05/2024</p>
-                            <p>R$20,00</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="agendamento">
-                            <p>Agendamento</p>
-                        </div>
-                        <div class="result-agendamento">
-                            <p>13/05/2024</p>
-                            <p>R$20,00</p>
-                        </div>
-                    </div>
-
-                </div>  
+            <div class="wrapper-button">
+              <a class="" id="cadastroBarber" href="#">cadastrar barbeiro</a>
+              <a href="../configurações/index.html">Configurações</a>
             </div>
         </div>
-      </main>
+    </div>
 
-
-
-
-    <footer>
-        <div class="footer-container">
-          <div class="nav-footer">
-            <ul>
-              <li><a href="#">Termos de uso e política de privacidade.</a></li>
-              <li><a href="#">Fale conosco</a></li>
-              <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
-            </ul>
+  <div class="historico">
+      <h2>Historico</h2>
+      <div class="wrapper-card">
+          <div class="card">
+              <div class="agendamento">
+                  <p>Agendamento</p>
+              </div>
+              <div class="result-agendamento">
+                  <p>13/05/2024</p>
+                  <p>R$20,00</p>
+              </div>
           </div>
-      
-          <div class="icons">
-            <i class='bx bxl-facebook-circle bx-md'></i>
-            <i class='bx bxl-gmail bx-md'></i>
-            <i class='bx bxl-instagram-alt bx-md'></i>
+          <div class="card">
+              <div class="agendamento">
+                  <p>Agendamento</p>
+              </div>
+              <div class="result-agendamento">
+                  <p>13/05/2024</p>
+                  <p>R$20,00</p>
+              </div>
           </div>
-        </div>
-      
-        <div class="copy">
-          <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+          <div class="card">
+              <div class="agendamento">
+                  <p>Agendamento</p>
+              </div>
+              <div class="result-agendamento">
+                  <p>13/05/2024</p>
+                  <p>R$20,00</p>
+              </div>
+          </div>
+      </div>  
+  </div>
+</div>
+</main>
 
 
-  <script src="./feed.js"></script>
 
+
+<footer>
+  <div class="footer-container">
+    <div class="nav-footer">
+      <ul>
+        <li><a href="#">Termos de uso e política de privacidade.</a></li>
+        <li><a href="#">Fale conosco</a></li>
+        <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
+      </ul>
+    </div>
+
+    <div class="icons">
+      <i class='bx bxl-facebook-circle bx-md'></i>
+      <i class='bx bxl-gmail bx-md'></i>
+      <i class='bx bxl-instagram-alt bx-md'></i>
+    </div>
+  </div>
+
+  <div class="copy">
+    <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+<!-- <script src="../assets/js/index.js"></script>-->
+<script src="./feed.js"></script>
 </body>
 </html>
