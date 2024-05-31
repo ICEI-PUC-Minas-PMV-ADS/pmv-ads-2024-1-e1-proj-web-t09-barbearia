@@ -15,13 +15,15 @@
             renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html', '../login/login.html');
         }
     } else {
-        renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html')
+        renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html');
     }
+
+
 
 // função para colocar cards na tela de acordo com o numero de barbeiro cadastrados
 
     function cards(){
-        barbearia.forEach(b => {
+        barbearias.forEach(b => {
             cardGroup.innerHTML += `
                 <div class="card">
                     <div class="image-barbearia">
@@ -40,7 +42,7 @@
     }
     cards()
 
-    // função do header
+
 
    
 
