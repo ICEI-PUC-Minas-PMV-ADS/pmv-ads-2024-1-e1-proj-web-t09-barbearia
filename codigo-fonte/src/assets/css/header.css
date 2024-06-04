@@ -86,22 +86,29 @@ header .container{
     height: 100%;
     margin: 0 auto;
     padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+   
 }
 
 header .container .navigation{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+   
 }
 
-header .container .navigation .logo {
+header .container .navigation .nav{
+   margin:0 auto;
+}
+
+header .container .logo {
     width: 100px;
     height: 100px;    
 }
 
-header .container .navigation .logo a img{
+header .container .logo a img{
     width: 100%;
     height: 100%;
 }
@@ -214,15 +221,97 @@ header .container .navigation .nav ul li a{
 
 .user-menu .menu ul li button:hover{
     background-color: #b49a24;
-
 }
 
 
-@media only screen and (min-width: 750px) and (max-width: 992px) {
+
+/*nav mobile*/
+
+.nav-mobile {
+    display: none;
+  }
+  
+  .menu-mobile {
+    cursor: pointer;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-mobile i {
+    color: #f1cd30;
+  }
+  
+  .mobile-menu {
+    display: none;
+    list-style: none;
+    background: #444;
+    padding: 2em;
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  .mobile-menu {
+    margin: 0.5em 0;
+    border: 3px solid #000000;
+    ;
+  }
+  
+  .mobile-menu li  {
+   
+    margin: 0.5em 0;
+    border-bottom: 2px solid yellow;
+  }
+  
+  .mobile-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.nav-mobile {
+ display: none;
+  }
 
 
-    header .container .navigation .nav ul li a{
-      font-size: 20px;  
+@media only screen and (max-width: 992px) {
+
+    header .container .navigation .nav  {
+        
+        margin: 0 auto;
+      
+    }
+   
+    
+
+ 
+    .nav-mobile {
+      display: block;
+    }
+
+   
+
+/* .login {
+   position: absolute;
+   top: 50%;
+   transform:translatey(-50%);
+   margin-right: 30px;
+} */
+
+.nav-mobile .menu-mobile i {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.user-menu .menu {
+    right:-50%;   
+ }
+
+   
+    header .container .navigation .nav ul li {
+     display: none;
   }
 
   .login button{
@@ -231,10 +320,23 @@ header .container .navigation .nav ul li a{
   }
 }
 
-@media only screen and (max-width: 912px) {
 
-    header .container .navigation .nav ul li {
-        display: none; 
-    }
+@media only screen and (max-width: 723px) {
+
+
+
+
+header .container .navigation .nav-mobile {
+    
+    
+  
+   }
+ 
+
+.user-menu .menu {
+
+    width: 170px;
+   
+ }
 
 }

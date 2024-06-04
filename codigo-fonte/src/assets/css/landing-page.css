@@ -77,11 +77,8 @@ a{
 }*/
 
 
-/*nav mobile*/
 
-.nav-mobile {
-  display: none;
-}
+
 
 /* Página Home */
 
@@ -324,7 +321,7 @@ h2 {
 }
 
 .container-form {
-  width: 300px;
+  width: 324px;
   height: 320;
   padding: 20px;
   border: 1px solid #ccc;
@@ -392,9 +389,17 @@ label {
 
 /* Responsive */
 
+@media only screen and (max-width: 723px) {
 
+  .img-sobre {
+    display: none;
+  }
 
-
+body .contato .container-contato .container-contato2{
+  flex-direction: column;  
+  text-align: center;
+ }
+}
 
 @media only screen and (min-width: 750px) and (max-width: 992px) {
 
@@ -507,6 +512,7 @@ section.blog{
     align-items: center;
     height: 150px;
     margin: 50px;
+    padding-top: 10px;
   }
 
   .text-left h1{
