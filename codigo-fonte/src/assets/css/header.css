@@ -96,23 +96,14 @@ header .container .navigation{
     align-items: center;
 }
 
-header .container .navigation .logo{
+header .container .navigation .logo {
     width: 100px;
-    height: 100px;
-    
+    height: 100px;    
 }
 
 header .container .navigation .logo a img{
     width: 100%;
     height: 100%;
-}
-
-
-header .container .navigation .nav{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header .container .navigation .nav ul{
@@ -121,7 +112,7 @@ header .container .navigation .nav ul{
 }
 
 header .container .navigation .nav ul li{
-    margin: 0 25px;
+    margin: 0 20px;
     position: relative;
     transition: 0.7s ease;
     padding: 5px 0;
@@ -150,11 +141,6 @@ header .container .navigation .nav ul li a{
     color: black;
 }
 
-.box-menu{
-    width: 200px;
-}
-
-
 .login{
     display: flex;
 }
@@ -162,7 +148,7 @@ header .container .navigation .nav ul li a{
 .login button{
     margin: 0 5px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     display: inline-block;
     border-radius: 5px;
@@ -228,5 +214,27 @@ header .container .navigation .nav ul li a{
 
 .user-menu .menu ul li button:hover{
     background-color: #b49a24;
+
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 992px) {
+
+
+    header .container .navigation .nav ul li a{
+      font-size: 20px;  
+  }
+
+  .login button{
+    
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+
+    header .container .navigation .nav ul li {
+        display: none; 
+    }
 
 }
