@@ -93,6 +93,17 @@ document.getElementById('img-banner').addEventListener('change', function () {
 
 });
 
+function enviar() {
+    let end = document.getElementById('addressBarber').value
+    userLogado.addressBarber = end;
+    localStorage.setItem('userLogado', JSON.stringify(userLogado));
+
+    barbearia = barbearias ? barbearias.find(b => b.usuario == userLogado.usuario) : undefined;
+    barbearias[barbearias.indexOf(barbearia)].addressBarber = end;
+
+    localStorage.setItem('barbearia', JSON.stringify(barbearias));
+
+}
 
 
 
