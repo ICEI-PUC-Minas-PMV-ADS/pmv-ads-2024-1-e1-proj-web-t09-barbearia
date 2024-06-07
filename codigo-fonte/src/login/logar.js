@@ -1,4 +1,4 @@
-window.alert('Seja bem vindo! Digite o seu nome de usuário e senha ')
+window.alert('Seja bem vindo! Digite o seu nome de usuário e senha. ')
 function color() {
     let botao = document.querySelector('button.btn')
     botao.style.background = 'yellow';
