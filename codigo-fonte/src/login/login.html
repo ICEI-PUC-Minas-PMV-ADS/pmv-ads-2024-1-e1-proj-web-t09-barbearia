@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-    <title>Barber.On</title>
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <title>Barber.On</title>
 </head>
+
 <body>
 
-   
+
   <header>
     <div class="container">
 
       <div class="navigation">
         <div class="logo">
-            <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
+          <a href="../index.html"><img src="../assets/img/Logo.svg" alt=""></a>
         </div>
 
         <nav class="nav">
-            <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../barbearias/index.html">Barbearias</a></li>
-              <li><a href="../index.html">Sobre</a></li>
-              <li><a href="../index.html">Blog</a></li>
-              <li><a href="../index.html" >Contato</a></li>
-            </ul>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../barbearias/index.html">Barbearias</a></li>
+            <li><a href="../index.html">Sobre</a></li>
+            <li><a href="../index.html">Blog</a></li>
+            <li><a href="../index.html">Contato</a></li>
+          </ul>
         </nav>
 
         <div class="box-menu" id="box-menu">
 
 
-        <!--
+          <!--
 
 
           <div class="login" style="display: none;">
@@ -61,7 +64,7 @@
                 </ul>
               </div>
           </div>
-           -->  
+           -->
 
 
 
@@ -69,62 +72,64 @@
         </div>
       </div>
     </div>
-</header>
+  </header>
 
 
 
-    <main>
-            <div class="wrapper">
-                <div class="box-form">
-                    <h2>Login</h2>
-                    <form action="#" onsubmit="event.preventDefault()">
-                        <div class="input-box">
-                            <input id="usuario" type="text" required>
-                            <label>Nome de usuário</label>
-                            <i class='bx bxs-user'></i>
-                        </div>
-                        <div class="input-box">
-                            <input id="senha" type="password" required>
-                            <label >Senha</label>
-                            <i class='bx bxs-lock-alt' ></i>
-                        </div>
-                        <div class="box-btn">
-                            <button onclick="logar()" class="btn">Login</button>
-                        </div>
-                        <div class="registrar">
-                            <p>Não tem uma conta? <a href="../novo-usuario/novo-usuario.html" >Cadastrar aqui</a></p>
-                            <p>Deseja cadastrar sua barbearia? <a href="../cadastro-barbearia/cadastro-barbearia.html">Cadastrar aqui</a></p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-    </main>
-
-
-    <footer>
-        <div class="footer-container">
-          <div class="nav-footer">
-            <ul>
-              <li><a href="#">Termos de uso e política de privacidade.</a></li>
-              <li><a href="#">Fale conosco</a></li>
-              <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
-            </ul>
+  <main>
+    <div class="wrapper">
+      <div class="box-form">
+        <h2>Login</h2>
+        <form action="#" onsubmit="event.preventDefault()">
+          <div class="input-box">
+            <input id="usuario" type="text" required>
+            <label>Nome de usuário</label>
+            <i class='bx bxs-user'></i>
           </div>
-      
-          <div class="icons">
-            <i class='bx bxl-facebook-circle bx-md'></i>
-            <i class='bx bxl-gmail bx-md'></i>
-            <i class='bx bxl-instagram-alt bx-md'></i>
+          <div class="input-box">
+            <input id="senha" type="password" required>
+            <label>Senha</label>
+            <i class='bx bxs-lock-alt'></i>
           </div>
-        </div>
-      
-        <div class="copy">
-          <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+          <div class="box-btn">
+            <button onclick="logar()" onmouseenter="color()" onmouseleave="sair()" class="btn">Login</button>
+          </div>
+          <div class="registrar">
+            <p>Não tem uma conta? <a href="../novo-usuario/novo-usuario.html">Cadastrar aqui</a></p>
+            <p>Deseja cadastrar sua barbearia? <a href="../cadastro-barbearia/cadastro-barbearia.html">Cadastrar
+                aqui</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
 
 
-      <script src="./logar.js"></script>
+  <footer>
+    <div class="footer-container">
+      <div class="nav-footer">
+        <ul>
+          <li><a href="#">Termos de uso e política de privacidade.</a></li>
+          <li><a href="#">Fale conosco</a></li>
+          <li><a href="#">Tecnologia: Html / CSS / Javascript </a></li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <i class='bx bxl-facebook-circle bx-md'></i>
+        <i class='bx bxl-gmail bx-md'></i>
+        <i class='bx bxl-instagram-alt bx-md'></i>
+      </div>
+    </div>
+
+    <div class="copy">
+      <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script src="./logar.js"></script>
 
 </body>
+
 </html>
