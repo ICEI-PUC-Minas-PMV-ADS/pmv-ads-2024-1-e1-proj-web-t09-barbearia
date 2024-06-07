@@ -7,8 +7,9 @@
     const email = document.getElementById('email').value;
     const senha = document.getElementById('senha').value;
     
+    var id = Math.random().toString(16).slice(2);
 
-    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, imagePerfil='' ,imageBanner = '');
+    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, id, imagePerfil='' ,imageBanner = '');
 
 
     let barbeariaList = JSON.parse(localStorage.getItem('barbearia') || '[]');

@@ -63,3 +63,4 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     };
 
 }
+

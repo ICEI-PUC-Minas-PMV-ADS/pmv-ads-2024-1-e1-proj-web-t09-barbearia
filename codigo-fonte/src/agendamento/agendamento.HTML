@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-sacale=1.5">
   <title>Barber.On</title>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/reset.css">
   <link rel="stylesheet" href="../agendamento/agendamento.css">
   <link rel="stylesheet" href="../assets/css/header.css">
   <link rel="stylesheet" href="../assets/css/footer.css">
@@ -68,70 +74,109 @@
 
 
 
-  <main>
+  <main id="main">
     <h1>Barbearia Na Valha <img width="60" height="60" src="../assets/img/logocolorido.png" alt="logo"></h1>
-    <div class="form">
-      <img width="310" height="300" src="../assets/img/barbeiro1.jpg">
-      <p>Barbeiro 1<br>Disponível de 9:00 ás 19:00</p>
-      <label class="formulario" class="formulario" for="data"> <strong>Data do Agendamento:</strong></label>
-      <input class="formulario" type="date" id="data"><br>
-      <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
-      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-      <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
-
-      <select name="Serviços" id="servico">
-        <option value="" Selecione um serviço></option>
-        <option value="Cabelo">Cabelo</option>
-        <option value="Barba">Barba</option>
-        <option value="Pintura">Pintura</option>
+      <div class="wrapper-barbearias" id="wrapper-barbearias">
 
 
-      </select>
-      <button class="agenda" onclick="agendar()">Agendar</button>
+    <!-- <div class="form">
+        <img width="310" height="300" src="../assets/img/barbeiro1.jpg">
+        <p>Barbeiro 1<br>Disponível de 9:00 ás 19:00</p>
+        <label class="formulario" class="formulario" for="data"> <strong>Data do Agendamento:</strong></label>
+        <input class="formulario" type="date" id="data"><br>
+        <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
+        <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+        <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
 
+        <select name="Serviços" id="servico">
+          <option value="" Selecione um serviço></option>
+          <option value="Cabelo">Cabelo</option>
+          <option value="Barba">Barba</option>
+          <option value="Pintura">Pintura</option>
+
+
+        </select>
+        <button class="agenda" onclick="agendar()">Agendar</button>
+
+      </div>
+
+
+      <div class="form">
+        <img width="310" height="300" src="../assets/img/barbeiro2.jpg">
+        <p>Barbeiro 2<br>Disponível de 9:00 ás 19:00</p>
+        <label class="formulario" for="data"><strong> Data do Agendamento:</strong></label>
+        <input class="formulario" type="date" name="dt"><br>
+        <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
+        <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+        <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
+
+        <select name="Serviços">
+          <option value="" Selecione um serviço></option>
+          <option value="Cabelo">Cabelo</option>
+          <option value="Barba">Barba</option>
+          <option value="Pintura">Pintura</option>
+
+
+        </select>
+        <button class="agenda" onclick="agendar()">Agendar</button>
+
+
+      </div>
+
+    <div class="card-Wrapper">
+        <div class="card">
+          <div class="img-card">
+              <img src="../assets/img/barba falhada.png" alt="">
+          </div>
+          <div class="form-card">
+              <p class="name-barber">Nome</p>  
+              <div class="form-card">  
+                  <form action="#">
+                      <div class="input-wrapper">
+                          <label for="data">Data</label>
+                          <input type="date">
+                      </div>
+                      <div class="input-wrapper">
+                        <label for="time">Horario de agendamento</label>
+                        <input type="time">
+                    </div>
+                    <div class="input-wrapper">
+                      <select name="Serviços">
+                        <option value="" Selecione um serviço></option>
+                        <option value="Cabelo">Cabelo</option>
+                        <option value="Barba">Barba</option>
+                        <option value="Pintura">Pintura</option>
+                
+                
+                      </select>
+                  </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+      </div>-->
+
+    <!-- <div class="form">
+        <img width="310" height="300" src="../assets/img/barbeiro3.jpeg">
+        <p>Barbeiro 3<br>Disponível de 9:00 ás 19:00</p>
+        <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
+        <input class="formulario" type="date" name="dt"><br>
+        <label class="formulario" for="hora"><strong>Horário Agendamento:<strong></label>
+        <input class="formulario" type="time" id="hora" name="horacadastro"><br>
+        <label class="formulario" for="Serviços">Serviços</label>
+
+        <select name="Serviços">
+          <option value="" Selecione um serviço></option>
+          <option value="Cabelo">Cabelo</option>
+          <option value="Barba">Barba</option>
+          <option value="Pintura">Pintura</option>
+
+
+        </select>
+        <button class="agenda" onclick="agendar()">Agendar</button>
+
+      </div>-->
     </div>
-    <div class="form">
-      <img width="310" height="300" src="../assets/img/barbeiro2.jpg">
-      <p>Barbeiro 2<br>Disponível de 9:00 ás 19:00</p>
-      <label class="formulario" for="data"><strong> Data do Agendamento:</strong></label>
-      <input class="formulario" type="date" name="dt"><br>
-      <label class="formulario" for="hora"><strong>Horário Agendamento:</strong></label>
-      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-      <label class="formulario" for="Serviços"><strong>Serviços</strong></label>
-
-      <select name="Serviços">
-        <option value="" Selecione um serviço></option>
-        <option value="Cabelo">Cabelo</option>
-        <option value="Barba">Barba</option>
-        <option value="Pintura">Pintura</option>
-
-
-      </select>
-      <button class="agenda" onclick="agendar()">Agendar</button>
-
-
-    </div>
-    <div class="form">
-      <img width="310" height="300" src="../assets/img/barbeiro3.jpeg">
-      <p>Barbeiro 3<br>Disponível de 9:00 ás 19:00</p>
-      <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
-      <input class="formulario" type="date" name="dt"><br>
-      <label class="formulario" for="hora"><strong>Horário Agendamento:<strong></label>
-      <input class="formulario" type="time" id="hora" name="horacadastro"><br>
-      <label class="formulario" for="Serviços">Serviços</label>
-
-      <select name="Serviços">
-        <option value="" Selecione um serviço></option>
-        <option value="Cabelo">Cabelo</option>
-        <option value="Barba">Barba</option>
-        <option value="Pintura">Pintura</option>
-
-
-      </select>
-      <button class="agenda" onclick="agendar()">Agendar</button>
-
-    </div>
-
   </main>
   <footer>
     <div class="footer-container">
@@ -154,6 +199,10 @@
       <p>© 2024 BarberConnect. Todos os direitos reservados.</p>
     </div>
   </footer>
+
+
+  <script src="../assets/js/import.js"></script>
+  <script src="../assets/js/header.js"></script>
 
 
   <script src="../dtos/AgendamentoDto.js"></script>

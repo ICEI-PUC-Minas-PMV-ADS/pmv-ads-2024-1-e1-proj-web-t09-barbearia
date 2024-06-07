@@ -4,22 +4,18 @@ class Barbearia {
     nome
     cnpj
     email
-    barbeiros = [];
     imagePerfil
     imageBanner
+    id
     
-    constructor(usuario, senha, nome, cnpj, email) {
+    constructor(usuario, senha, nome, cnpj, email, id, imagePerfil, imageBanner) {
         this.usuario = usuario;
         this.senha = senha;
         this.nome = nome;
         this.cnpj = cnpj;
         this.email = email;
-        this.barbeiros = [];
         this.imagePerfil = imagePerfil;
         this.imageBanner = imageBanner;
-    }
-
-    addBarbeiro(ObjetoBarbeiro) {
-        this.barbeiros.push(ObjetoBarbeiro);
+        this.id = id;
     }
 }

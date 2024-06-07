@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="../cadastro-barbeiro/cadastro-barbeiro.css">
   <link rel="stylesheet" href="../assets/css/reset.css">
   <link rel="stylesheet" href="../assets/css/header.css">
@@ -16,28 +22,31 @@
 
 <body>
   <header>
-
+  
     <div class="container">
 
+      <div class="logo">
+        <a href="../index.html"><img src="../assets/img/Logo2.svg" alt=""></a>
+      </div>
       <div class="navigation">
-        <div class="logo">
-          <a href="#"><img src="../assets/img/Logo.svg" alt=""></a>
-        </div>
-
+      
         <nav class="nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Barbearias</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../barbearias/index.html">Barbearias</a></li>
+              <li><a href="../index.html">Sobre</a></li>
+              <li><a href="../index.html">Blog</a></li>
+              <li><a href="../index.html" >Contato</a></li>
+            </ul>
         </nav>
+        
+     
 
         <div class="box-menu" id="box-menu">
+       
+        
 
-
-          <!--
+        <!--
 
 
           <div class="login" style="display: none;">
@@ -57,16 +66,28 @@
                 </ul>
               </div>
           </div>
-           -->
+           -->  
 
-
+         
 
 
         </div>
+
+        <div class="nav-mobile">
+          <div class="menu-mobile" id="menu-mobile"><i class='bx bx-menu'></i></div>
+          <ul class="mobile-menu" id="mobile-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="./barbearias/index.html">Barbearias</a></li>
+              <li><a href="#sobre1">Sobre</a></li>
+              <li><a href="#blog1">Blog</a></li>
+              <li><a href="#contato1">Contato</a></li>
+          </ul>
       </div>
+         </div>
+      
     </div>
 
-  </header>
+</header>
   <!-- fim container navbar -->
   <main><!-- 
     <div class="wrapper">
@@ -94,7 +115,7 @@
 
     <div class="container-contato2">
       <div class="container-form">
-        <form action="#" method="post">
+        <form action="#">
           <h2 class="titulo">Cadastro barbeiro</h2>
           <div class="input-group">
             <label for="name">Nome:</label>
@@ -109,7 +130,7 @@
             <label for="senha">Senha:</label>
             <input type="password" id="senha" name="senha" placeholder="Sua senha">
           </div>
-          <button class="btn-submit" type="submit">Cadastrar</button>
+          <button class="btn-submit" type="button" onclick="cadastrar()">Cadastrar</button>
         </form>
       </div>
       </div>
@@ -151,7 +172,9 @@
 
   <script src="../assets/js/import.js"></script>
   <script src="../assets/js/header.js"></script>
-  <script src="./assets/js/index.js"></script>
+
+  <script src="../dtos/BarbeiroDto.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 let boxMenu = document.getElementById('box-menu');
 
 
-let enviar = document.getElementById('enviar');
+let btnEnviar = document.getElementById('btnEnviar');
 let banner = document.getElementById('banner');
 let address = document.getElementById('address');
 
@@ -18,7 +18,7 @@ if (userLogado) {
         renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html', '../login/login.html');
         address.classList.add('address');
         banner.classList.add('banner');
-        enviar.classList.add('enviar');
+        btnEnviar.classList.add('btnEnviar');
 
 
     }
@@ -33,11 +33,13 @@ if (userLogado) {
 
 //troca de perfil
 document.getElementById('img-perfil').addEventListener('change', function() {
+    
     const reader = new FileReader();
 
     reader.addEventListener("load", ()=>{
 
         userLogado.imagePerfil = reader.result;
+
 
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
 
@@ -67,6 +69,8 @@ document.getElementById('img-perfil').addEventListener('change', function() {
     reader.readAsDataURL(this.files[0]);
 }); 
 
+
+
 //troca de banner
 document.getElementById('img-banner').addEventListener('change', function () {
     const reader = new FileReader();
@@ -88,8 +92,6 @@ document.getElementById('img-banner').addEventListener('change', function () {
     reader.readAsDataURL(this.files[0]);
 
 });
-
-
 
 
 

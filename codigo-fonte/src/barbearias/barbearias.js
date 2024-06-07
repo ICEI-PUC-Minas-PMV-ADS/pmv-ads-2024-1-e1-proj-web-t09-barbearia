@@ -4,7 +4,14 @@
 
     let boxMenu = document.getElementById('box-menu');
 
+    
 
+    function select(barbearia){
+
+        window.location.href = `../agendamento/agendamento.HTML?id=${barbearia.getAttribute("id")}`
+
+
+    }
 
 
     //verificação do header
@@ -31,10 +38,10 @@
                     </div>
                     <div class="text-barbearia">
                         <h2 class="nameBarbearia">${b.nome}</h2>
-                        <p class="endereco">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p class="endereco">${b.addressBarber}</p>
                     </div>
                     <div class="btn-barbearia">
-                            <button class="btn">Selecionar</button>
+                            <button class="btn" id="${b.id}" onclick="select(this);">Selecionar</button>
                     </div>
                 </div>
             `
