@@ -1,5 +1,4 @@
 let boxMenu = document.getElementById('box-menu');
-const userLogado = JSON.parse(localStorage.getItem('userLogado'));
 //verificando o header
 cadastraBarbeariaPadrao();
 
@@ -15,7 +14,6 @@ if (userLogado) {
 }
 
 function cadastraBarbeariaPadrao() {
-    console.log('chegou');
     const barbearias = JSON.parse(localStorage.getItem('barbearia'));
 
     if (!barbearias) {
