@@ -1,13 +1,15 @@
 class Barbeiro {
     nome
-    senha
+   telefone
     email
     id
+    imagem
 
-    constructor(nome, senha, email, id) {
+    constructor(nome, telefone, email, id, imagem) {
         this.nome = nome;
-        this.senha = senha;
+        this.telefone = telefone;
         this.email = email;
         this.id = id;
+        this.id = imagem;
     }
 }
