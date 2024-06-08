@@ -1,5 +1,9 @@
-//função header
 function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
+    
+    if (!imagePerfil) {
+        imagePerfil = '../assets/img/user-icon.png';
+    }
+
     boxMenu.innerHTML += `
     <div class="user-menu" >
         <img src="${imagePerfil}" id="OpenMenu" alt="">
@@ -63,17 +67,3 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     };
 
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    const menuMobile = document.getElementById('menu-mobile');
-    const mobileMenu = document.getElementById('mobile-menu');
-
-    menuMobile.addEventListener('click', () => {
-        if (mobileMenu.style.display === 'block') {
-            mobileMenu.style.display = 'none';
-        } else {
-            mobileMenu.style.display = 'block';
-        }
-    });
-});
-
