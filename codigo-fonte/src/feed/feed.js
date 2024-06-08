@@ -10,10 +10,12 @@ if(userLogado){
     if(userLogado.hasOwnProperty('cnpj')){
         renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html','../login/login.html');
         nameBarber.innerHTML = `${userLogado.nome}`;
-    }else{
+        imgUsuario.src = userLogado.imagePerfil;
+        }else{
         renderMenuUsuario(userLogado.imagePerfil, '../feed/index.html', '../configurações/index.html','../login/login.html');
         nameBarber.innerHTML = `${userLogado.usuario}`;
         cadastroBarber.classList.add('cadastroBarber');
+        imgUsuario.src = userLogado.imagePerfil;
     }
 }else{
     renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html')
@@ -30,32 +32,11 @@ function preencheHistorico() {
         <div class="result-agendamento">
             <p>Data: ${a.data}</p>
             <p>Horario: ${a.horario}</p>
-            <p>Valor: R$20,00</p>
+            <p>serviço: ${a.tipoServico}</p>
+            <p>Valor: ${a.valorServico}</p>
         </div>
         </div>`
     });
 }
 
-// aqui coloca a imagem que o usuario no main da tela 
-imgUsuario.src = userLogado.imagePerfil;
 
-function listAgendamentos(){
-    barbearias.forEach(b => {
-        cardGroup.innerHTML += `
-            <div class="card">
-                <div class="image-barbearia">
-                    <img src="${b.imageBanner}" alt="">
-                </div>
-                <div class="text-barbearia">
-                    <h2 class="nameBarbearia">${b.nome}</h2>
-                    <p class="endereco">${b.addressBarber}</p>
-                </div>
-                <div class="btn-barbearia">
-                        <button class="btn" id="${b.id}" onclick="select(this);">Selecionar</button>
-                </div>
-            </div>
-        `
-    })
-}
-
-listAgendamentos();

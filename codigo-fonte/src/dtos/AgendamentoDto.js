@@ -6,6 +6,8 @@ class Agendamento {
     data
     horario
     id
+    tipoServico
+    valorServico
 
     constructor(data, horario, servico, usuario, barbearia, barbeiro, id) {
         this.usuario = usuario;
@@ -15,5 +17,7 @@ class Agendamento {
         this.barbearia = barbearia;
         this.barbeiro = barbeiro;
         this.id = id;
+        this.valorServico = servico.split(':')[1];
+        this.tipoServico = servico.split(':')[0];
     }
 }

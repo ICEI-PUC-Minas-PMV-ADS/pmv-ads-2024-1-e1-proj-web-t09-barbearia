@@ -6,6 +6,8 @@ const currentUrl = window.location.href;
 const id = currentUrl.split("?id=")[1];
 const agendamento = userLogado.agendamentos.find(a => a.id === id);
 
+console.log(agendamento)
+
 preencheConfirma();
 preencheServicos();
 
@@ -56,8 +58,8 @@ function preencheServicos() {
                 <img src="../assets/img/serviço-dts.jpg" alt="">
             </div>
             <div class="card-text">
-                <h2>Serviço: </h2>
-                <p>${agendamento.servico}</p>
+                <h2>Serviço:</h2>
+                <p>${agendamento.tipoServico}</p>
             </div>
         </div>`
 }
@@ -67,7 +69,7 @@ function preencheConfirma() {
     <div class="confirma-text">
         <p>Data: ${agendamento.data}</p>
         <p>Hora: ${agendamento.horario}</p>
-        <p>Valor:R$20,00</p>
+        <p>Valor: ${agendamento.valorServico}</p>
     </div>
 
     <div class="confirma-btn">
