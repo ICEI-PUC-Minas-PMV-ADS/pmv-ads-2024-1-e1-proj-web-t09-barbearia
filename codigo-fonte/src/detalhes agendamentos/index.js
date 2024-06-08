@@ -35,7 +35,7 @@ toggleButton.addEventListener('click', () => {
 function preencheServicos() {
     servicos.innerHTML = `<div class="card">
         <div class="card-img">
-            <img src="${agendamento.barbearia.imageBanner} alt="">
+            <img src="${agendamento.barbearia.imageBanner}" alt="">
             </div>
         <div class="card-text">
             <h2>Barbearia: </h2>

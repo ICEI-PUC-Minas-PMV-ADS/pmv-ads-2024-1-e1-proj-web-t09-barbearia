@@ -49,9 +49,9 @@ function cards() {
 
                 <select name="Serviços" id="servico">
                     <option value="" Selecione um serviço></option>
-                    <option value="Cabelo">Cabelo</option>
-                    <option value="Barba">Barba</option>
-                    <option value="Pintura">Pintura</option>
+                    <option value="Cabelo:R$20">Cabelo : R$20</option>
+                    <option value="Barba:R$40">Barba : R$40</option>
+                    <option value="Pintura:R$60">Pintura : R$60</option>
                 </select>
                 <button class="agenda" id=${b.id} onclick="agendar(this)">Agendar</button>
             </div>
