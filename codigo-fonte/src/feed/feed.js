@@ -2,7 +2,7 @@
 let boxMenu = document.getElementById('box-menu');
 let nameBarber = document.getElementById('nameBarber');
 let imgUsuario = document.getElementById('imgUsuario');
-
+const historico = document.getElementById('historico')
 let cadastroBarber = document.getElementById('cadastroBarber');
 
 // verificando se o usuario e um cliente ou um barbeiro ou um visitante / se não é um barbeiro não tem acesso a algumas funções 
@@ -17,6 +17,23 @@ if(userLogado){
     }
 }else{
     renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html')
+}
+
+preencheHistorico();
+function preencheHistorico() {
+    userLogado.agendamentos.forEach(a => {
+        historico.innerHTML += `<div class="card">
+        <div class="agendamento">
+            <p>Barbearia: ${a.barbearia.nome}</p>
+            <p>Barbeiro: ${a.barbeiro.nome}</p>
+        </div>
+        <div class="result-agendamento">
+            <p>Data: ${a.data}</p>
+            <p>Horario: ${a.horario}</p>
+            <p>Valor: R$20,00</p>
+        </div>
+        </div>`
+    });
 }
 
 // aqui coloca a imagem que o usuario no main da tela 

@@ -170,7 +170,7 @@ main{
 }
 
 .result-agendamento p{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 24px;
 }
 
@@ -178,4 +178,8 @@ main{
 .wrapper-button .cadastroBarber{
     
     display: none;
+}
+
+.agendamento p {
+    margin-bottom: 10px;
 }

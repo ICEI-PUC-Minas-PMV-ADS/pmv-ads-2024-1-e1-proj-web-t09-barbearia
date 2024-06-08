@@ -1,8 +1,7 @@
-    const textUser = document.querySelector('.text-user');
-
-    const cardGroup = document.getElementById('card-group');
-
-    let boxMenu = document.getElementById('box-menu');
+const textUser = document.querySelector('.text-user');
+const cardGroup = document.getElementById('card-group');
+let boxMenu = document.getElementById('box-menu');
+cards();
 
 function select(barbearia) {
     window.location.href = `../agendamento/agendamento.HTML?id=${barbearia.getAttribute("id")}`
@@ -38,11 +37,3 @@ function cards() {
         `
     })
 }
-
-cards();
-
-
-
-   
-
-
