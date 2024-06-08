@@ -1,5 +1,4 @@
-function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
-    
+function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref) {
     boxMenu.innerHTML += `
     <div class="user-menu" >
         <img src="${imagePerfil}" id="OpenMenu" alt="">
@@ -24,7 +23,6 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     }
     });
 
-
     window.perfil = function() {
         window.location.href = perfilHref;
 
@@ -34,7 +32,6 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
         window.location.href = configHref;
     };
 
-
     window.sair = function(){
     localStorage.removeItem('userLogado');
 
@@ -43,10 +40,7 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     }
 }
 
-
-
-
-    function renderMenuVisitante(cadastrarHref, loginHref){
+function renderMenuVisitante(cadastrarHref, loginHref) {
     boxMenu.innerHTML += `
         <div class="login">
             <button onclick="cadastra()">Cadastrar</button>
@@ -61,5 +55,4 @@ function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     window.login = function(){
         window.location.href = loginHref;
     };
-
 }

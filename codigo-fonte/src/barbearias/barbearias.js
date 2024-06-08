@@ -28,7 +28,7 @@ function cards() {
                 </div>
                 <div class="text-barbearia">
                     <h2 class="nameBarbearia">${b.nome}</h2>
-                    <p class="endereco">${b.addressBarber}</p>
+                    <p class="endereco">${b.addressBarber ? b.addressBarber : 'Endereço não definido'}</p>
                 </div>
                 <div class="btn-barbearia">
                         <button class="btn" id="${b.id}" onclick="select(this);">Selecionar</button>
