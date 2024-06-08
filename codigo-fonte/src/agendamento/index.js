@@ -14,11 +14,9 @@ if(userLogado){
 
 
 function agendar() {
-
     const data = document.getElementById('data').value;
     const hora  = document.getElementById('hora').value;
     const servico = document.getElementById('servico').value;
-
     const currentUrl = window.location.href;
 
     console.log(currentUrl.split("?id=")[1]);
