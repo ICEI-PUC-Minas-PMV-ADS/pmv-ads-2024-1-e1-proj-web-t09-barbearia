@@ -1,8 +1,13 @@
 
 let boxMenu = document.getElementById('box-menu');
+const currentUrl = window.location.href;
+const id = currentUrl.split("?id=")[1];
+const agendamento = usuarioLogado.agendamentos.find(a => a.id === id);
+console.log(agendamento);
 
-
-
+function confirmar() {
+    window.location.href = `../confirmacao/confirmacao.HTML?id=${id}`  
+};
 
 //verificação do header
 if (userLogado) {
@@ -17,7 +22,6 @@ if (userLogado) {
 
 
 // menu mobile
-
 const toggleButton = document.querySelector('.toggle-button');
 const navbarLinks = document.querySelector('.navbar-links');
 

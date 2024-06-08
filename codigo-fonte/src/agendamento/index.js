@@ -21,8 +21,6 @@ function agendar(barbeiro) {
     const currentUrl = window.location.href;
     let newAgendamento = new Agendamento(data, hora, servico, userLogado.usuario, barbearias.find(b => b.id == id), barbearias.find(b => b.id == id).barbeiros.find(b => b.id == barbeiroId), Math.random().toString(16).slice(2));
 
-    console.log(newAgendamento);
-
     if (userLogado.agendamentos && userLogado.agendamentos.length > 0) {
         userLogado.agendamentos.push(newAgendamento);
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
