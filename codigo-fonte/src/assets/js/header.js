@@ -1,9 +1,5 @@
 function renderMenuUsuario(imagePerfil, perfilHref, configHref, sairHref){
     
-    if (!imagePerfil) {
-        imagePerfil = '../assets/img/user-icon.png';
-    }
-
     boxMenu.innerHTML += `
     <div class="user-menu" >
         <img src="${imagePerfil}" id="OpenMenu" alt="">

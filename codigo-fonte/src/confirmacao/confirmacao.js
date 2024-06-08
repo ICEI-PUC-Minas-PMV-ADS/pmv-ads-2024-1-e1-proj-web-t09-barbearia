@@ -1,11 +1,52 @@
 let boxMenu = document.getElementById('box-menu');
+let box = document.getElementById('box');
+const currentUrl = window.location.href;
+let id = currentUrl.split("?id=")[1];
+
+let confirmAgendamento = userLogado.agendamentos.find(b => b.id == id);
+console.log(confirmAgendamento);
 
 
+RenderAgendamento(confirmAgendamento);
 
-function loadAgendamento() {
-    const agendamento = JSON.parse(localStorage.getItem('agendamentos'));
+
+function RenderAgendamento(b) {
+
+    box.innerHTML += `
+      <div class="box-title">Resumo do Agendamento</div>
+            <div class="label-group">
+                <label for="name">Barbearia: <span class="right-text">${b.barbearia.nome}</span></label>
+            </div>
+            <div class="label-group">
+                <label for="email">Cliente: <span class="right-text">${b.usuario}</span></label>
+            </div>
+            <div class="label-group">
+                <label for="message">Dia/Horario: <span class="right-text">${b.data}/${b.horario}</span></label>
+            </div>
+            <div class="label-group">
+                <label for="message">Profissional: <span class="right-text">${b.barbeiro.nome}</span></label>
+            </div>
+            <div class="label-group">
+                <label for="message">Servico: <span class="right-text">${b.servico}</span></label>
+            </div>
+            <div class="label-group">
+                <label for="message">Valor: <span class="right-text">20</span></label>
+            </div>
+            <div class="button-group">
+                <button class="yellow-button" type="button" onclick="concluir()">Concluir</button>
+            </div>
+    `
+
+
+window.concluir = function() {
+    alert('agendamento feito com sucesso!');
+
+    window.location.href = '../index.html'
 }
 
+
+
+} 
 
 
 

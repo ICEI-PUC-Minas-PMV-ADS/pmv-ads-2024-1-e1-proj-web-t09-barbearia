@@ -24,11 +24,12 @@ function cadastraBarbeariaPadrao() {
             cnpj: '26.843.189/0001-78',
             email: 'barbeariaPadroa@gmail.com',
             id: Math.random().toString(16).slice(2),
-            imagePerfil: '' ,
-            imageBanner: '',
+            imagePerfil: 'https://as1.ftcdn.net/v2/jpg/02/01/33/54/1000_F_201335438_CNpY0iWaXXAV95Gj8BPB0tEJlMcxWeaZ.jpg',
+            imageBanner: 'https://as1.ftcdn.net/v2/jpg/02/01/33/54/1000_F_201335438_CNpY0iWaXXAV95Gj8BPB0tEJlMcxWeaZ.jpg',
             barbeiros: [{
                 nome: 'Joaozinho',
                 senha: 12345,
+                imagem:'https://as1.ftcdn.net/v2/jpg/02/01/33/54/1000_F_201335438_CNpY0iWaXXAV95Gj8BPB0tEJlMcxWeaZ.jpg',
                 email: 'barbeiroPadrao@gmail.com',
                 id: Math.random().toString(16).slice(2)
             }]
@@ -37,4 +38,5 @@ function cadastraBarbeariaPadrao() {
         localStorage.setItem('barbearia', JSON.stringify(barbeariaPadrao));
     }
 }
+
 

@@ -7,7 +7,7 @@ function cadastrar() {
 
     var id = Math.random().toString(16).slice(2);
 
-    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, id, imagePerfil='' ,imageBanner = '');
+    const barbearia = new Barbearia(usuario,senha, nome, cnpj, email, id, imagePerfil='https://as1.ftcdn.net/v2/jpg/02/01/33/54/1000_F_201335438_CNpY0iWaXXAV95Gj8BPB0tEJlMcxWeaZ.jpg' ,imageBanner = 'https://as1.ftcdn.net/v2/jpg/02/01/33/54/1000_F_201335438_CNpY0iWaXXAV95Gj8BPB0tEJlMcxWeaZ.jpg');
 
     let barbeariaList = JSON.parse(localStorage.getItem('barbearia') || '[]');
 

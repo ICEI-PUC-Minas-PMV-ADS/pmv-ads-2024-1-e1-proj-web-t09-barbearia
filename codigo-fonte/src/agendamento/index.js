@@ -29,7 +29,7 @@ function agendar(barbeiro) {
         localStorage.setItem('userLogado', JSON.stringify(userLogado));
     }
 
-    window.location.href = `../detalhes agendamentos/dts-confirma.HTML?id=${newAgendamento.id}`
+    window.location.href = `../detalhes agendamentos/dts-confirma.html?id=${newAgendamento.id}`
 }
 
 function cards() {
@@ -39,7 +39,7 @@ function cards() {
     barbeirosList.forEach(b => {
         wrapperBarbearias.innerHTML += `
             <div class="form">
-                    <img width="310" height="300" src="${b.imageBarbeiro}">
+                    <img width="310" height="300" src="${b.imagem}">
                     <p>${b.nome}<br>Disponível de 9:00 ás 19:00</p>
                     <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
                     <input class="formulario" id="data" type="date" name="dt"><br>

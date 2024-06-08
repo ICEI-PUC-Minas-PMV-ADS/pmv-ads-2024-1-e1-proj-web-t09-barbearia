@@ -10,7 +10,7 @@ preencheConfirma();
 preencheServicos();
 
 function confirmar() {
-    window.location.href = `../confirmacao/confirmacao.HTML?id=${id}`
+    window.location.href = `../confirmacao/confirmacao.html?id=${id}`  
 };
 
 //verificação do header
