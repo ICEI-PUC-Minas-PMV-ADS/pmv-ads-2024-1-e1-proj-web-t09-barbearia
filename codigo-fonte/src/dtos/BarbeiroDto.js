@@ -1,6 +1,6 @@
 class Barbeiro {
     nome
-   telefone
+    telefone
     email
     id
     imagem
@@ -9,7 +9,7 @@ class Barbeiro {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
+        this.imagem = imagem;
         this.id = id;
-        this.id = imagem;
     }
 }

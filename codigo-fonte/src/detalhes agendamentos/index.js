@@ -24,7 +24,6 @@ if (userLogado) {
     renderMenuVisitante('../novo-usuario/novo-usuario.html','../login/login.html');
 };
 
-
 // menu mobile
 const toggleButton = document.querySelector('.toggle-button');
 const navbarLinks = document.querySelector('.navbar-links');
