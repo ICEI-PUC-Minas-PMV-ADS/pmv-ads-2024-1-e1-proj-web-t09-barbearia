@@ -1,27 +1,28 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('contactForm');
+document.addEventListener("DOMContentLoaded", function() {
   
+  const savedData = JSON.parse(localStorage.getItem("formData")) || {};
+  document.getElementById("name").value = savedData.name || "";
+  document.getElementById("email").value = savedData.email || "";
+  document.getElementById("message").value = savedData.message || "";
+
+  
+  document.getElementById("sendMessage").addEventListener("click", function() {
     
-    const savedName = localStorage.getItem('name');
-    const savedEmail = localStorage.getItem('email');
-    const savedMessage = localStorage.getItem('message');
-    if (savedName) document.getElementById('name').value = savedName;
-    if (savedEmail) document.getElementById('email').value = savedEmail;
-    if (savedMessage) document.getElementById('message').value = savedMessage;
-  
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-    });
-  
-    const sendMessageButton = document.getElementById('sendMessage');
-  
-    sendMessageButton.addEventListener('click', function() {
-      
-      localStorage.setItem('name', document.getElementById('name').value);
-      localStorage.setItem('email', document.getElementById('email').value);
-      localStorage.setItem('message', document.getElementById('message').value);
-  
-      
-      window.open("https://chat.whatsapp.com/JK3tCm896Um0sHtYupY2Kc", "_blank");
-    });
+    const formData = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value
+    };
+
+    
+    localStorage.setItem("formData", JSON.stringify(formData));
+
+    
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+
+    
+    window.open("https://chat.whatsapp.com/JK3tCm896Um0sHtYupY2Kc", "_blank");
   });
+});

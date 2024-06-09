@@ -242,17 +242,10 @@ h2 {
   width: 350px;
   height: 413px;
   border-radius: 25px;
-  transition: opacity 0.6s ease;
+  
 }
 
-.card-p {
-  font-size: 24px;
-  font-weight: 600;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px 10px 20px;
-} 
+
 
 .close-button  {
   font-size: 36px;
@@ -265,11 +258,9 @@ h2 {
   padding-top: 10px;
 }
 
-.card-p p{
-  font-size: 24px;
-}
 
-..flip-horizontal-right:hover .flip-card-inner{
+
+.flip-horizontal-right:hover .flip-card-inner{
   transform: rotateY(180deg);
 }
 
@@ -308,7 +299,7 @@ h2 {
 .flip-card {
   background-color: transparent;
   width: 350px;
-  height: 450px;
+  height: 413px;
   perspective: 1000px; 
 }
 
@@ -329,7 +320,32 @@ h2 {
   backface-visibility: hidden;
 }
 
+.flip-card-back{
+  background-color: #f1cd30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  
+}
+.text-card i {
+  font-size: 20px;
+  color: black;
+}
 
+.flip-card-back p{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 20px 10px;
+ 
+}
+
+.flip-card-back i {
+  color: #000000;
+  font-size: 50px;
+
+}
 
 .blog {
   text-align: center;
@@ -339,7 +355,7 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 100px 2%;
+  padding: 100px;
 }
 
 
@@ -352,9 +368,7 @@ h2 {
   object-fit: cover;
 }
 
-.text-card {
-  background-color: rgba(241, 205, 48, 0.7);
-}
+
 
 .text-card h4 {
   border-bottom: solid 3px #000000;
@@ -364,8 +378,7 @@ h2 {
 }
 
 .text-card p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
   margin: 15px;
   text-transform: capitalize;
   text-align: left;
@@ -381,13 +394,9 @@ h2 {
   border: none;
   cursor: pointer;
 }
-
 /* Página Contato */
 
-.contato-flex{
-  display: flex;
-  gap: 100px;
-}
+
 
 .container-contato {
   display: flex;
@@ -399,10 +408,11 @@ h2 {
   border-bottom: 3px solid #000000;
 }
 
-.container-contato2, .map {
- 
+.container-contato2 {
+  display: flex;
   margin-top: 80px;
-
+  align-items: center;
+  gap: 100px;
 }
 
 .text-contato h2 {
@@ -420,7 +430,7 @@ h2 {
   width: 320px;
   height: 350px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #ffffff;
   border-radius: 5px;
   background-color: #000000;
   justify-content: center;
@@ -465,7 +475,7 @@ label {
 }
 
 .input-group textarea {
-  height: 70px;
+  height: 50px;
 }
 
 button {
@@ -486,7 +496,6 @@ button {
 
 
 
-
 /* Responsive */
 
 @media only screen and (max-width: 723px) {
@@ -499,6 +508,15 @@ body .contato .container-contato .container-contato2{
   flex-direction: column;  
   text-align: center;
  }
+ .text-contato {
+  font-size: 25px;
+    text-align: center;
+ }
+
+ .container-contato2 {
+  
+  gap: 25px;
+
 }
 
 @media only screen and (min-width: 750px) and (max-width: 992px) {
@@ -550,9 +568,7 @@ section.blog{
   object-fit: cover;
 }
 
-.text-card {
-  background-color: rgba(241, 205, 48, 0.7);
-}
+
 
 .text-card h4 {
   border-bottom: solid 3px #000000;
@@ -585,10 +601,15 @@ section.blog{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 30px 1%;
+  padding: 30px 2%;
   background-color: #f1cd30;
   border-bottom: 3px solid #000000;
 }
+
+.text-contato {
+  
+    text-align: center;
+ }
 
 }
 
