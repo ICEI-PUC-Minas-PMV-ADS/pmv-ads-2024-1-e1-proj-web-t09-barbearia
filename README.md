@@ -15,7 +15,7 @@ dessa aplicação ele vai poder consultar os horários que seus clientes marcara
 * Lucas Águiar Dos Santos
 * Pedro Rubens Serafim Bastos
 * Elvis Florentino Xavier Graciano
-* Luis Felipe Da Silva Moreira
+* Luiz Felipe Da Silva Moreira
 * Lucas Henrique de Almeida Santos
 
 ## Orientador
