@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+    
+
+
+  .container2 {
+    background-color: #f1cd30;
+  font-weight: bold;
+  min-height: calc(100vh - (206px));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  }
+
+
+  .container2 h1 {
+    font-size: 38px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container2 p {
+
+font-size: 18px;
+padding: 20px;
+margin: 10px;
+  }
+
+  hr { 
+    border: 2px solid #000000;
+  }
