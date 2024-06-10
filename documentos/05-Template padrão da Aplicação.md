@@ -1,8 +1,20 @@
 # Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as [páginas](https://www.figma.com/design/LbQkV2AlSMZ6t1T1j3osCO/Barbearia-Designs?node-id=0-1&t=7m2kHFSMQEVN2DBR-0) com a definição de identidade visual, aspectos de responsividade e iconografia.
+O layout padrão do site foi feito utilizando as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção das funções da página.
 
-[Apresente a estrutura padrão da sua aplicação.]
+As páginas terão como padrão o header e o footer, além dos elementos de identidade visual citados abaixo:
+
+<ul>
+<li>Cores:  #5D6989, #F1CD30, #ffffffb2</li>
+<li>Font-family: Poppins, sans-serif.</li>
+<li>Font-size: 22px. </li>
+</ul>
+
+O código dos elementos citados pode ser consultado [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/tree/main/codigo-fonte). As imagens utilizadas no projeto estão disponíveis [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/tree/main/codigo-fonte/src/assets/img).
+
+<h3><b>Tela de visualização</b></h3>
+
+
 
 > **Links Úteis**:
 >
