@@ -14,11 +14,51 @@ O código dos elementos citados pode ser consultado [aqui](https://github.com/IC
 
 <h3><b>Tela de visualização</b></h3>
 
+<h3><b>landing page</b></h3>
+<p>Tela da landing page.</p>
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/5d02013a6159a5e094e5c8539d0d7fc6f9f8077a/documentos/img/LandingPage.png">
+  <figcaption> Figura 1 - Tela da landing page.
+</figure> 
+<hr>
+
+<h3><b>Selecionar barbearias</b></h3>
+<p>Tela para selecionar a barbearia desejada.</p>
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/TelaDeBarbearias.png">
+  <figcaption> Figura 1 - Tela de barbearias.
+</figure> 
+<hr>
+
+<h3><b>Selecionar o barbeiro desejado.</b></h3>
+<p>Tela para selecionar o barbeiro.</p>
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/TelaDeBarbeiros.png">
+  <figcaption>Figura 2 - Tela para selesionar o barbeiro.   
+</figure> 
+<hr>
+
+<h3><b>Confimar agendamento</b></h3>
+<p>Tela para confirmar agendamento.</p>
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/ConfirmarAgendamento.png">
+  <figcaption>Figura 3 - Tela para confirmar agendamento.
+</figure> 
+<hr>
+
+<h3><b>Concluir agendamento</b></h3>
+<p>Tela para concluir agendamento.</p>
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/ConfirmarAgendamento.png">
+  <figcaption>Figura 4 - Tela para concluir agendamento.
+</figure> 
+
+<hr>
 
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+<p>Para a criação do logotipo do site foi utilizado o https://www.canva.com/</p>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/LogoDoSite.png">
+    <figcaption>Figura 5 - Logotipo da aplicação web Barber.On
+</figure> 
