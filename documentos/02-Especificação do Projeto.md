@@ -45,12 +45,14 @@
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 |  A aplicação deve ser capaz de verificar disponibilidade de barbeiros específicos ao realizar agendamento.                   | Alta    | 
-|  RF-02  |  A aplicação deve ser capaz de realizar agendamento com barbeiro escolhido.                    | Alta   |
-| RF-03  |  A aplicação deve permitir que o cliente consulte agendamentos realizados.                   | Média     |
-|  RF-04  |  A aplicação deve permitir que o barbeiro verifique os agendamentos feito pelos clientes.                  |Média   |
-| RF-05  |  A aplicação deve permitir a verificação de preços dos serviços da barbearia.                | Baixa   |
-|  RF-06  |  A aplicação deve permitir a escolha do serviço sendo eles, corte de cabelo, barba e combo.                   | Média     |
-| RF-07  |  A aplicação deve permitir o usuário a consultar o trabalho já feito pelo barbeiro.                   | Média     |
+| RF-02  |  A aplicação deve ser capaz de realizar agendamento com barbeiro escolhido.                    | Alta   |
+| RF-03  |  A aplicação deve permirtir o usuário cadastrar uma conta.                  |Alta   |
+| RF-04  |  A aplicação deve exibir um histórico de agendamentos.                  | Alta     |
+| RF-05  | A aplicação deve permitir que o dono da barbearia cadastre seus barbeiros.                | Alta   |
+| RF-06  | A aplicação deve permitir ao usuário fazer o login da sua conta.                | Alta   |
+| RF-07 |  A aplicação deve permitir a escolha do serviço sendo eles, corte de cabelo, barba e combo.                   | Média     |
+| RF-08  |  A aplicação deve permitir o usuário a navegar entre paginás.              | Média   |
+| RF-09  |  A aplicação deve permitir a verificação de preços dos serviços da barbearia.                | Baixa   |
 
 
 **Prioridade: Alta / Média / Baixa. 
