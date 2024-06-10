@@ -77,9 +77,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
-
 <table>
- <tr>
+  <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
  <td>CT-03: Verificar cadastro de usuário e barbeiro</td>
   <td>
    <ul>
