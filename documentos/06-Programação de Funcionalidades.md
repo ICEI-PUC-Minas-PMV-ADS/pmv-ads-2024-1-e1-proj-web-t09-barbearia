@@ -130,8 +130,8 @@ Ao entrar na página de barbearias o usuário pode navegar em todas as páginas 
 
 
   
-#### Permitir que o dono de uma barbearia seja capaz de cadastra-la(RF-10)
-### Tela de cadastro de barbearias
+# Permitir que o dono de uma barbearia seja capaz de cadastra-la(RF-10)
+#### Tela de cadastro de barbearias
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-barbearia.PNG">
 
 RF-0010: A aplicação deve permitir o cadastro de barbearias
