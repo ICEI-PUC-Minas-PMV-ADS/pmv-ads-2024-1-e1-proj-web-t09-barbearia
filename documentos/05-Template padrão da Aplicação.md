@@ -1,6 +1,6 @@
 # Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas(https://www.figma.com/design/LbQkV2AlSMZ6t1T1j3osCO/Barbearia-Designs?node-id=0-1&t=7m2kHFSMQEVN2DBR-0) com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 [Apresente a estrutura padrão da sua aplicação.]
 
