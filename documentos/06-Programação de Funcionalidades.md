@@ -13,6 +13,7 @@ e realizar agendamento com barbeiro escolhido.
 
 
 Artefatos da funcionalidade
+
 ● agendamento.html
 
 ●agendamento.css
@@ -40,6 +41,7 @@ RF-002: A aplicação deve permitir ao usuário fazer login
 
 
 Artefatos da funcionalidade
+
 ● login.html
 
 ●main.css
@@ -60,10 +62,12 @@ A aplicação deverá mostrar um histórico de agendamentos realizado pelos clie
 
 ### Tela histórico de agendamentos
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/historico.PNG"> 
+
 #### Requisito atendido
 RF-004 : A aplicação deve permitir a consulta do histórico de agendamento 
 
 Artefatos da funcionalidade
+
 ● historico.html
 
 ● historico.css
@@ -90,6 +94,7 @@ RF-007: A aplicação deve permitir a escolha do serviço sendo eles, corte de c
 
 
 Artefatos da funcionalidade
+
 ● agendamento.html
 
 ●agendamento.css
@@ -114,6 +119,7 @@ A aplicação deve permitir o usuário a navegar entre paginás.
 RF-008: A aplicação deve permitir que o usuário navegue entre as páginas do site
 
 Artefatos da funcionalidade
+
 ●barbearias.html
 
 ●main.css
@@ -131,12 +137,14 @@ Ao entrar na página de barbearias o usuário pode navegar em todas as páginas 
 
   
 # Permitir que o dono de uma barbearia seja capaz de cadastra-la(RF-10)
-#### Tela de cadastro de barbearias
+### Tela de cadastro de barbearias
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/cadastro-barbearia.PNG">
 
+#### Requisito Atendido
 RF-0010: A aplicação deve permitir o cadastro de barbearias
 
 Artefatos da funcionalidade
+
 ●cadastro-barbearia.html
 
 ●main.css
