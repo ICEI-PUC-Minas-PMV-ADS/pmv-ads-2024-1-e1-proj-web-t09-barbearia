@@ -5,7 +5,7 @@ A aplicação deve ser capaz de verificar disponibilidade de barbeiros específi
 e realizar agendamento com barbeiro escolhido.
 
 ### Tela seleção de barbeiros
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbeiros.PNG#:~:text=barbearias.PNG-,barbeiros.PNG,-cadastro%2Dbarbearia.PNG">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/TelaDeBarbeiros.png">
   
 #### Requisito atendido
 RF-001: A aplicação deve ser capaz de verificar disponibilidade de barbeiros específicos ao realizar agendamento,
@@ -58,7 +58,7 @@ Ao digitar os dados de cadastro , o usuário pode clicar no botão cadastrar e f
 A aplicação deverá mostrar um histórico de agendamentos realizado pelos clientes 
 
 
-### Tela seleção de barbeiros
+### Tela histórico de agendamentos 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/historico.PNG"> 
 #### Requisito atendido
 RF-004 : A aplicação deve permitir a consulta do histórico de agendamento 
@@ -83,7 +83,7 @@ A aplicação deve permitir a escolha do serviço sendo eles, corte de cabelo, b
 
 
 ### Tela seleção de serviço e preço 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/barbeiros.PNG#:~:text=barbearias.PNG-,barbeiros.PNG,-cadastro%2Dbarbearia.PNG">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/agendamento.PNG">
   
 #### Requisito atendido
 RF-007: A aplicação deve permitir a escolha do serviço sendo eles, corte de cabelo, barba, combo, e também o preço do serviço.
@@ -111,8 +111,8 @@ A aplicação deve permitir o usuário a navegar entre paginás.
 
 
 
-### Tela seleção de barbeiros
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/landing-page.PNG">
+### Landing Page 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/blob/main/documentos/img/LandingPage.png">
   
 #### Requisito atendido
 RF-008: A aplicação deve permitir que o usuário navegue entre as páginas do site
