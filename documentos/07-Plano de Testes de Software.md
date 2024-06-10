@@ -77,6 +77,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+
+<table>
+ <tr>
  <td>CT-03: Verificar a validação do formulário de cadastro </td>
   <td>
    <ul>
