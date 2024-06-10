@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-01: Verificar o funcionamento dos links da landing page</td>
   <td>
    <ul>
-    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
    <li>RF-06:	O site deve permitir ao usuário fazer o login da sua conta.</li>
    <li>RF-01:	O site deve permitir ao usuário verificar barbearias cadastradas.</li>
     <li>RF-04:	O site deve permitir ao usuário acessar o historico de agendamentos feitos.</li>
@@ -44,6 +44,63 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>Pedro</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-02: Verificar a validação do formulário de login </td>
+  <td>
+   <ul>
+   <li>RF-06	A aplicação deve permitir ao usuário fazer o login da sua conta.</li>
+    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
+   <li>RF-10:	Permitir que o dono de uma barbearia seja capaz de cadastra-la. </li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a pagina de login.</li>
+    <li>Clicar nos links da pagina de login ou acessar a conta através do formulário.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Felipe</td>
+ </tr>
+</table>
+
+ <td>CT-03: Verificar a validação do formulário de cadastro </td>
+  <td>
+   <ul>
+   <li>RF-06	A aplicação deve permitir ao usuário fazer o login da sua conta.</li>
+    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
+   <li>RF-10:	Permitir que o dono de uma barbearia seja capaz de cadastra-la. </li>
+   <li>RF-08:	A aplicação deve permitir o usuário a navegar entre paginás.  </li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a pagina de login.</li>
+    <li>Clicar nos links da pagina de login ou acessar a conta através do formulário e criar de acordo com sua necessidade.</li>
+   </ol>
+   </td>
+  <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Felipe</td>
+ </tr>
+</table>
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
