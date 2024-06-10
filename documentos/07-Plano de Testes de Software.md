@@ -41,7 +41,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    </ol>
    </td>
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Alguem</td>
+  <td>Pedro</td>
  </tr>
 </table>
  
