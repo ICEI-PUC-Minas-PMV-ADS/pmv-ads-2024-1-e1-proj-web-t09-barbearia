@@ -403,9 +403,10 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f1cd30;
   border-bottom: 3px solid #000000;
+  padding-bottom: 20px;
 }
 
 .container-contato2 {
@@ -498,6 +499,15 @@ button {
 
 /* Responsive */
 
+@media only screen and (min-width: 375px) and (max-width: 590px) {
+ 
+  .hero .hero-container .text-left h1{
+    font-size: 30px;
+    max-width: 400px;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 723px) {
 
   .img-sobre {
@@ -516,6 +526,8 @@ body .contato .container-contato .container-contato2{
  .container-contato2 {
   
   gap: 25px;
+
+}
 
 }
 
@@ -675,4 +687,5 @@ section.blog{
   padding: 0;
   margin: 0;
 }
+
 }
