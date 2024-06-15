@@ -16,26 +16,26 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container-form {
-  width: 500px;
-  height: 500px;
-  padding: 20px;
+  width: 100%;
+  max-width: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: rgba(200, 200, 200, ) 0px 5px 15px;
   background: rgba(0, 0, 0, 0.50);
+}
+
+.container-form {
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  display: flex;
+  display: flex;  
+  padding: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 450px;
-  height: 450px;
 }
  
 .input-group label {
@@ -121,4 +121,10 @@ padding-top:6px;
 
 .image .input-group input{
 display: none;
+}
+
+@media only screen and (max-width: 768px){
+  .wrapper-cicle{
+    flex-direction: column;
+  }
 }

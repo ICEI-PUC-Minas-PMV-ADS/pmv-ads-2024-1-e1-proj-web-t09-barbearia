@@ -41,7 +41,7 @@ function cards() {
     barbeirosList.forEach(b => {
         wrapperBarbearias.innerHTML += `
             <div class="form">
-                    <img width="310" height="300" src="${b.imagem}">
+                    <img src="${b.imagem}">
                     <p>${b.nome}<br>Disponível de 9:00 ás 19:00</p>
                     <label class="formulario" for="data"><strong>Data do Agendamento:</strong></label>
                     <input class="formulario" id="data" type="date" name="dt"><br>

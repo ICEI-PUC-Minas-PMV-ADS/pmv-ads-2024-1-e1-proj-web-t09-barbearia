@@ -1,80 +1,85 @@
-
 h1{
-    font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color:yellow;
-  }
+  font-size: 50px;
+  text-align: center;
+  color:yellow;
+}
  
-
-    
 .blocolista{
-    width:50%;
-    display: flex;
-    align-items: center;
-    float: none;
-    
-    
- }
+  width:50%;
+  display: flex;
+  align-items: center;
+  float: none;
+}
  
- .agenda {
-   background-color: yellow;
-   border: none;
-   border: 2px solid black;
-   border-radius: 30px;
-    margin-left: 30%;
-   font-size:  15px;
- }
- .formulario{
-   width: 34%;
- }
+.agenda {
+  background-color: yellow;
+  border: none;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size:  15px;
+}
+.formulario{
+  width: 34%;
+}
  
 main{
   width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: auto;
+  text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image:url(../assets/img/barbearia.jpeg)
+  background-image:url(../assets/img/barbearia.jpeg);
+  padding: 40px;
 }
 .wrapper-barbearias{
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 2%;
-  display: flex;
-  justify-content: center;
+  padding: 0 2%;  
+
 }
 .form{
-    background-color:white;
-    display: inline-block;
-    width: 360px;
-    height: 500px;
-    vertical-align:top;
-    margin: 40px;
-    border: 4px solid black;
-    box-sizing:border-box;
-    border-radius: 10px;
-    padding: 20px;
+  background-color:white;
+  display: inline-block;
+  height: 500px;
+  vertical-align:top;
+  margin: 5px;
+  border: 4px solid black;
+  box-sizing:border-box;
+  border-radius: 10px;
+  padding: 20px;
+}
+.form img{
+  width: 100%;
+  height: 300px;
+}
+ 
+@media only screen and (max-width: 990px){
+  main{
+    height: 100%;
+  }
+  .wrapper-barbearias{
+    width: 100%;
+    flex-direction: column;
+  }
+  .form{
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 15px;
+    height: auto;
   }
 
-.form, form{
-    text-align: center;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  .form img{
+    width: 100%;
+    height: 300px;
+  }
+}
 
- }
- 
- 
 
- 
- 
 
-    
+  
     
     
     
