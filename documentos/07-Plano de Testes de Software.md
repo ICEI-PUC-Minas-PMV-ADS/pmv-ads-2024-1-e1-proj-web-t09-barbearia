@@ -94,6 +94,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    <ul>
    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
    <li>RF-10:	Permitir que o dono de uma barbearia seja capaz de cadastra-la. </li>
+   <li>RF-05:	A aplicação deve permitir que o dono da barbearia cadastre seus barbeiros.</li>
    </ul>
   </td>
   <td>Verificar se os dados do usuário estão indo corretamente para o localStorage.</td>
@@ -101,7 +102,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Visualizar a pagina de cadastro de usuário/barbeiro.</li>
+    <li>Visualizar a pagina de cadastro de usuário/barbeira e cadastro de barbeiros.</li>
     <li>Digitar os seus dados e cadastrar.</li>
    </ol>
    </td>
