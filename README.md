@@ -38,7 +38,7 @@ dessa aplicação ele vai poder consultar os horários que seus clientes marcara
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* Acesse o site [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t09-barbearia/codigo-fonte/src/)
 
 # Código-Fonte
 
