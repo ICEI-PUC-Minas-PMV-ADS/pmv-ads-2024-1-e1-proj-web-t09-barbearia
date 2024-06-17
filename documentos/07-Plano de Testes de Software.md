@@ -159,17 +159,18 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
    <li>RF-04:	Ao clicar no usuario logado deve permitir visualizar o historico de agendamentos feitos com suas devidas informaçoes </li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar se os agendamentos sao exibidos no historico de agendamentos corretamente</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Cadastrar novo usuário.</li>
-    <li>Entrar na página de login e colocar os dados corretamente.</li>
+    <li>Realizar um agendamento</li>
+    <li>Verificar se o agendamento e suas informaçoes sao exibidas no historico de agendamentos</li>
    </ol>
    </td>
-  <td>O usuário sera encaminhado para página feed com os dados cadastrados.</td>
-  <td>Felipe</td>
+  <td>O usuário sera encaminhado para página de usuario com o historico de agendamentos.</td>
+  <td>Pedro</td>
  </tr>
 </table>
 
