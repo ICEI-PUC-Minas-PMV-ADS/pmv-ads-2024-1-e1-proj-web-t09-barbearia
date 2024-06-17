@@ -143,6 +143,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar funcionamento do historico de agendamentos </td>
+  <td>
+   <ul>
+   <li>RF-04:	Ao clicar no usuario logado deve permitir visualizar o historico de agendamentos feitos com suas devidas informaçoes </li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Cadastrar novo usuário.</li>
+    <li>Entrar na página de login e colocar os dados corretamente.</li>
+   </ol>
+   </td>
+  <td>O usuário sera encaminhado para página feed com os dados cadastrados.</td>
+  <td>Felipe</td>
+ </tr>
+</table>
+
 
  
 > **Links Úteis**:
