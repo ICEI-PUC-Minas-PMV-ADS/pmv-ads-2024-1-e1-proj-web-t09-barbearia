@@ -25,10 +25,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <td>CT-01: Verificar o funcionamento dos links da landing page</td>
   <td>
    <ul>
-    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
-   <li>RF-06:	O site deve permitir ao usuário fazer o login da sua conta.</li>
-   <li>RF-01:	O site deve permitir ao usuário verificar barbearias cadastradas.</li>
-    <li>RF-04:	O site deve permitir ao usuário acessar o historico de agendamentos feitos.</li>
+    <li>RF-08:	Ao clicar em home na landing page, deve permanecer na mesma pagina </li>
+    <li>RF-08:	Ao clicar em barbearias, deve encaminhar para pagina de barbearias disponiveis </li>
+    <li>RF-08:	Ao clicar em Sobre, a pagina deve descer para a sessao "Sobre" da landing page </li>
+    <li>RF-08:	Ao clicar em Blog, a pagina deve descer para a sessao "Blog" da landing page </li>
+    <li>RF-08:	Ao clicar em Contato, a pagina deve descer para a sessao "Contato" da landing page </li>
+    <li>RF-08:	Deve ter um botao de login e de cadastro, encaminhando o usuario para suas respectivas paginas </li>
    </ul>
   </td>
   <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
