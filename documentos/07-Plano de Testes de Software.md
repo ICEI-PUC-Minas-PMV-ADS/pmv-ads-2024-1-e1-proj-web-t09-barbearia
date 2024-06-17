@@ -57,12 +57,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar a validação do formulário de login </td>
+  <td>CT-02: Verificar funcionamento da pagina de login </td>
   <td>
    <ul>
-   <li>RF-06	A aplicação deve permitir ao usuário fazer o login da sua conta.</li>
-    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
-   <li>RF-10:	Permitir que o dono de uma barbearia seja capaz de cadastra-la. </li>
+   <li>RF-06	A aplicação deve permitir ao usuário fazer o login da sua conta. </li>
+   <li>RF-06	A aplicação deve permitir ao usuário fazer o login da sua conta de barbeiro. </li>
+    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente. </li>
+   <li>RF-05:	O site deve permitir ao usuário cadastrar uma conta de barbearia </li>
    </ul>
   </td>
   <td>Verificar se os links da página Home e Barbearias estão encaminhando para as respectivas páginas corretamente</td>
