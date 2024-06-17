@@ -138,7 +138,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Confirmar o agendamento.</li>
    </ol>
    </td>
-  <td>O usuário deve ser encaminhado para a página de confimarção de agendamento e depois voltar para pagina principal</td>
+  <td>O usuário deve ser encaminhado para a página de confimarção de agendamento e depois voltar para página principal</td>
   <td>Lucas</td>
  </tr>
 </table>
