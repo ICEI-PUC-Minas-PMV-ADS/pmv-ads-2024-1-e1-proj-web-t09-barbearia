@@ -110,6 +110,39 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+<table>
+  <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <td>CT-04: Verificar as fucionalidades de agendamentos</td>
+  <td>
+   <ul>
+   <li>RF-06:	A aplicação deve permitir ao usuário fazer o login da sua conta.</li>
+   <li>RF-08:	A aplicação deve permitir o usuário a navegar entre paginás.</li>
+   <li>RF-07:	A aplicação deve permitir a escolha do serviço sendo eles, corte de cabelo, barba e combo.</li>
+   <li>RF-02:	A aplicação deve ser capaz de realizar agendamento com barbeiro escolhido. </li>
+   </ul>
+  </td>
+  <td>Verificar se o usuário consegue selecionar sua barbearia, o seu barbeiro e finalizar o agendamento.</td>
+  <td>
+   <ol>
+    <li>O usuáio deve fazer Login com sua conta.</li>
+    <li>Clicar em Barbearias.</li>
+    <li>Selecionar a barbearia desejada.</li>
+    <li>Selecionar o barbeiro desejado.</li>
+    <li>Confirmar o agendamento.</li>
+   </ol>
+   </td>
+  <td>O usuário deve ser encaminhado para a página de confimarção de agendamento e depois voltar para pagina principal</td>
+  <td>Lucas</td>
+ </tr>
+</table>
+
 
  
 > **Links Úteis**:
