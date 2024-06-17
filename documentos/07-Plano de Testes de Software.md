@@ -89,7 +89,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
- <td>CT-03: Verificar cadastro de usuário e barbeiro</td>
+ <td>CT-03: Verificar cadastro de usuário, barbearia e barbeiro.</td>
   <td>
    <ul>
    <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta de cliente final.</li>
