@@ -18,6 +18,10 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
+.container {
+border-bottom: 3px solid #000000;  
+}
+
 .main-container {
     width: 100%;
     padding: 20px;

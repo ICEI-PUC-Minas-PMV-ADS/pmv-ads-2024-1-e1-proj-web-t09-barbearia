@@ -1,6 +1,6 @@
 main{
   width: 100%;
-  min-height: calc(100vh - (206px));
+  min-height: calc(100vh - (230px));
   background-image: url(../assets/img/img-login.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ form {
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .input-group label {
   display: block;
   margin-bottom: 10px;

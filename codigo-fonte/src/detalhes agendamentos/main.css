@@ -1,6 +1,6 @@
 main{
     width: 100%;
-    height: 700px;
+    min-height: calc(100vh - (230px));
     display: grid;
     grid-template-columns: 70% 30%;
     background-image: url("../assets/img/HOME-PAGE-IMAGE.jpg");

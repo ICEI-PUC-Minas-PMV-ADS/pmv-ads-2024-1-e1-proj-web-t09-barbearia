@@ -1,7 +1,7 @@
 /*main e container*/
 main{
     width: 100%;
-    min-height: calc(100vh - (106px));
+    min-height: calc(100vh - (230px));
     background-image: url(../assets/img/img-login.png);
     background-position: center;
     background-repeat: no-repeat;
