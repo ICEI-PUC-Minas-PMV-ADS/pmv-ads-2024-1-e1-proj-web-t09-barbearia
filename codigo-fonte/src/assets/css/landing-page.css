@@ -240,23 +240,16 @@ h2 {
 .card, .flip-card-front {
   background-color: #f1cd30;
   width: 350px;
-  height: 413px;
   border-radius: 25px;
   
 }
 
 
+.card{
+  width: 350px;
+  height: 430px;
+}  
 
-.close-button  {
-  font-size: 36px;
-  border: none;
-  background-color: transparent;
-}
-
-.close-button i {
-  color: #000000;
-  padding-top: 10px;
-}
 
 
 
@@ -299,7 +292,7 @@ h2 {
 .flip-card {
   background-color: transparent;
   width: 350px;
-  height: 413px;
+  height: 430px;
   perspective: 1000px; 
 }
 
@@ -334,17 +327,16 @@ h2 {
   color: black;
 }
 
-.flip-card-back p{
+.flip-card-back p {
   font-size: 20px;
   font-weight: 600;
   padding: 30px 20px 10px;
- 
 }
 
 .flip-card-back i {
   color: #000000;
-  font-size: 50px;
-
+  font-size: 40px;
+  padding-bottom: 10px;
 }
 
 .blog {
@@ -428,8 +420,7 @@ h2 {
 }
 
 .container-form {
-  width: 320px;
-  height: 350px;
+  width: 322px;
   padding: 20px;
   border: 2px solid #ffffff;
   border-radius: 5px;
@@ -499,12 +490,15 @@ button {
 
 /* Responsive */
 
-@media only screen and (min-width: 375px) and (max-width: 590px) {
- 
+@media only screen and (min-width: 320px) and (max-width: 590px) {
+
+
+
   .hero .hero-container .text-left h1{
-    font-size: 30px;
+    font-size: 36px;
     max-width: 400px;
     text-align: center;
+    padding-bottom: 50px;
   }
 }
 
@@ -517,16 +511,14 @@ button {
 body .contato .container-contato .container-contato2{
   flex-direction: column;  
   text-align: center;
- }
- .text-contato {
+}
+.text-contato {
   font-size: 25px;
     text-align: center;
- }
+}
 
- .container-contato2 {
-  
+.container-contato2 {  
   gap: 25px;
-
 }
 
 }
@@ -543,7 +535,6 @@ body .contato .container-contato .container-contato2{
 .card {
   display: flex;
   flex-direction: column;
- 
 }
 
 .container-blog {
@@ -554,11 +545,10 @@ body .contato .container-contato .container-contato2{
   text-decoration: dashed;
 }
 
-
-
-section.blog{
-  padding: 30px 2%;
+section.blog {
+  padding: 65px 2%;
 }
+
 .blog {
   text-align: center;
   background-color: #000000;
@@ -569,9 +559,6 @@ section.blog{
   flex-direction: column;
 }
 
-  
-
-
 .img-card img {
   width: 100%;
   height: 200px;
@@ -579,8 +566,6 @@ section.blog{
   background-color: #000000;
   object-fit: cover;
 }
-
-
 
 .text-card h4 {
   border-bottom: solid 3px #000000;
@@ -643,10 +628,10 @@ section.blog{
   .text-left {
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 240px;
     margin: 50px;
     padding-top: 10px;
-  }
+}
 
   .text-left h1{
     font-size: 40px;
