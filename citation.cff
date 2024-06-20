@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: Barbearia
+authors:
+  - family-names: Rubens Serafim Bastos	
+    given-names: Pedro
+  - family-names: Breno Gonçalves Antunes
+    given-names: Victor
+  - family-names: Felipe da Silva Moreira
+    given-names: Luiz
+  - family-names: Aguiar dos Santos
+    given-names: Lucas
+  - family-names: Florentino Xavier Graciano
+    given-names: Elvis
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Azevedo Nigri do Carmo
+    given-names: Humberto
+keywords:
+  - Agendamento
+  - Barbearia
+  - Barbeiros
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia
+version: 1.0.0
+date-released: 2023-10-31
