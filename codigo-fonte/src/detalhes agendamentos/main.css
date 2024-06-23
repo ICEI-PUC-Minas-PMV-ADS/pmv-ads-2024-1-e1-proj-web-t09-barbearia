@@ -39,7 +39,6 @@ main{
     width: 80%;
     height: 100%;
     padding: 10px 20px;
-
 }
 .card-text h2{
     font-size: 34px;
@@ -68,8 +67,8 @@ main{
     height: 80%;
 }
 .confirma-text p{
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 25px;
 }
 .confirma-btn{
     width: 100%;
@@ -84,4 +83,34 @@ main{
     border: 1px solid black;
     border-radius: 15px
 }
+@media only screen and (max-width: 1024px){
+    .confirma-text p{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 990px){
+    .card-text h2{
+        font-size: 25px;
+    }
+    .card-text p{
+        margin: 20px 0px;
+        font-size: 16px;
+    }
+    
+    .confirma-text p{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .card-text{
+        width: 70%;
+        height: 100%;
+        padding: 10px 20px;
+    }
+    .card-img{
+        width: 30%;
+        height: 100%;
+    }
+}
