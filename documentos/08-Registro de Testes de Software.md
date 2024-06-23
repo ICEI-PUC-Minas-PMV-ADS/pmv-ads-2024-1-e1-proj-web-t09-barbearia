@@ -15,6 +15,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbear
     <li> CT-02: Verificar funcionamento da pagina de login.
 
 
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/fd36fe95-c828-46ad-8cb0-044acc7195de
+
+
     </li>
   <hr>
     <li> CT-03: Verificar cadastro de usuário, barbearia e barbeiro.
