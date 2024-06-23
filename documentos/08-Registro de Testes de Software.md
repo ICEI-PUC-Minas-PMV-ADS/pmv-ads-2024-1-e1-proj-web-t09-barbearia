@@ -21,7 +21,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbear
     </li>
   <hr>
     <li> CT-04: Verificar as fucionalidades de agendamentos.
-    https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/869e6677-dc84-47d0-9223-9106b13715c5  
+        
+
     </li>
   <hr>
     <li> CT-05: Verificar funcionamento do historico de agendamentos.
