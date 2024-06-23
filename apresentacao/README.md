@@ -9,7 +9,8 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 > - Solução Implementada (funcionalidades de software)
 > - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
 
-[Adicione pdf de apresentação.]
+[barbearia-vfinal.pptx](https://github.com/user-attachments/files/15945430/barbearia-vfinal.pptx)
+
 
 > **Links Úteis**:
 > - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
@@ -29,4 +30,4 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t09-barbearia/codigo-fonte/src/
