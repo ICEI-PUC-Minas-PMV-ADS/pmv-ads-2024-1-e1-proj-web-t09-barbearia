@@ -26,7 +26,10 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 > - resolução HD (720p) ou Full HD (1080p)
 > - formato mp4.
 
-[Adicione vídeo de apresentação.]
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/165971411/5f24f1d5-77ba-4d7e-a108-e56cffecee58
+
+
 
 ## Hospedagem
 
