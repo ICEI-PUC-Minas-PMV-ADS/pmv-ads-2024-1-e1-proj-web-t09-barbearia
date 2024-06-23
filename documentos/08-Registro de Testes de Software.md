@@ -10,7 +10,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/4b7c91fb-bd29-479b-b36b-d13a1f1c5e49
 
 
-    </li>
+</li>
   <hr>
     <li> CT-02: Verificar funcionamento da pagina de login.
 
