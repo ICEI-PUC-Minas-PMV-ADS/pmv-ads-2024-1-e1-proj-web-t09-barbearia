@@ -11,6 +11,6 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [1.0] - 09/06/2024
 #### Adicionado/Atualizado/Removido
-- Relação de artefatos ...
+- Finalização do projeto
