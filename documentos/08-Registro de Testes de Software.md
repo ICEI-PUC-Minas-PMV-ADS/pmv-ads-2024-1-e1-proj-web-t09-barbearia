@@ -19,23 +19,31 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbear
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/fd36fe95-c828-46ad-8cb0-044acc7195de
 
 
-    </li>
   <hr>
     <li> CT-03: Verificar cadastro de usuário, barbearia e barbeiro.
     
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/5112cf1b-22ad-4165-9f6a-209720ea6186
+
+
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/7d6417d4-ad02-4576-bded-200df81f25de
 
 
-    </li>
   <hr>
     <li> CT-04: Verificar as fucionalidades de agendamentos.
         
 
-    </li>
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/ca1ab9ed-0438-4a3c-bbfc-534674f062de
+
+
+
   <hr>
     <li> CT-05: Verificar funcionamento do historico de agendamentos.
       
-    </li>
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-barbearia/assets/166563272/04bf4cf5-57c3-4781-8f53-8b85058baa44
+
+
 </ol>
     
