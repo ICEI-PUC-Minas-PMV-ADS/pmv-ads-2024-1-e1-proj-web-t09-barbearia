@@ -11,6 +11,7 @@ RenderAgendamento(confirmAgendamento);
 
 
 function RenderAgendamento(b) {
+    const servico = b.servico.split(":");
 
     box.innerHTML += `
       <div class="box-title">Resumo do Agendamento</div>
@@ -27,10 +28,10 @@ function RenderAgendamento(b) {
                 <label for="message">Profissional: <span class="right-text">${b.barbeiro.nome}</span></label>
             </div>
             <div class="label-group">
-                <label for="message">Servico: <span class="right-text">${b.servico}</span></label>
+                <label for="message">Servico: <span class="right-text">${servico[0]}</span></label>
             </div>
             <div class="label-group">
-                <label for="message">Valor: <span class="right-text">20</span></label>
+                <label for="message">Valor: <span class="right-text">${servico[1]}</span></label>
             </div>
             <div class="button-group">
                 <button class="yellow-button" type="button" onclick="concluir()">Concluir</button>
